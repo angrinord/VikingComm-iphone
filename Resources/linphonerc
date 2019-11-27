@@ -19,32 +19,7 @@ lime_migration_done=0
 use_rls_presence=1
 
 [in_app_purchase]
-#set to 1 if in-app purchases are to be shown in the application
 enabled=0
-
-#specify here the id of the sip account in-app purchase service to be shown in the shop section of the app
-paid_account_id=sipAccount_12m
-
-#the url of the inapp/account management server, for submitting the receipt and validating the account.
-receipt_validation_url=https://subscribe.linphone.org:444/inapp.php
-
-#for future use, to specify the full list of paying services to show in the shop view
-products_list=sipAccount_12m,sipAccount_6m
-
-#minimum period of time between notifications to the user about his expiring/expired account, in seconds.
-expiry_check_period=30
-
-#period of time before account expiry, to start notifying the user about expiration arriving, in seconds.
-warn_before_expiry_period=160
-
-#for test only, simulate an account expiry after the specified number of seconds
-expiry_time_test=180
-
-#save temporarily the receipt for any purchase in case of XMLRPC server error
-save_tmp_receipt=0
-
-[default_values]
-reg_expires=1314000
 
 [misc]
 file_transfer_server_url=https://www.linphone.org:444/lft.php
@@ -57,7 +32,7 @@ edge_bw=10
 edge_ping_time=10
 firewall_policy=ice
 mtu=1300
-stun_server=stun.linphone.org
+stun_server=stun.l.google.com:19302
 
 [rtp]
 audio_jitt_comp=60
@@ -68,7 +43,7 @@ video_rtp_port=9200-9299
 
 [sip]
 auto_net_state_mon=1
-contact="Linphone iPhone" <sip:linphone.iphone@unknown-host>
+contact="Viking iPhone" <sip:viking.iphone@unknown-host>
 guess_hostname=1
 inc_timeout=45
 keepalive_period=30000
@@ -81,8 +56,13 @@ rtcp_xr_stat_summary_enabled=1
 rtcp_xr_voip_metrics_enabled=1
 sip_port=-1
 sip_tcp_port=-1
+sip_tls_port=-1
 use_info=0
 deliver_imdn=1
+use_ipv6=0
+srtp_crypto_suites=MS_AES_128_SHA1_80,MS_AES_128_SHA1_32
+verify_server_certs=1
+verify_server_cn=1
 
 [sound]
 capture_dev_id=AU: Audio Unit Receiver
@@ -90,9 +70,9 @@ eq_active=0
 playback_dev_id=AU: Audio Unit Receiver
 
 [video]
-automatically_accept=0
-automatically_initiate=0
-capture=1
+automatically_accept=1
+automatically_initiate=1
+capture=0
 display=1
 enabled=1
 show_local=0
