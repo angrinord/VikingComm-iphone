@@ -27,10 +27,8 @@
 @property(nonatomic, strong) IBOutlet UIButton *historyButton;
 @property(nonatomic, strong) IBOutlet UIButton *contactsButton;
 @property(nonatomic, strong) IBOutlet UIButton *dialerButton;
-@property(nonatomic, strong) IBOutlet UIButton *chatButton;
+@property(nonatomic, strong) IBOutlet UIButton *scheduleButton;
 @property(nonatomic, strong) IBOutlet UIBouncingView *historyNotificationView;
-@property(nonatomic, strong) IBOutlet UIBouncingView *chatNotificationView;
-@property(nonatomic, strong) IBOutlet UILabel *chatNotificationLabel;
 @property(nonatomic, strong) IBOutlet UILabel *historyNotificationLabel;
 @property(weak, nonatomic) IBOutlet UIImageView *selectedButtonImage;
 
@@ -39,6 +37,5 @@
 - (IBAction)onHistoryClick:(id)event;
 - (IBAction)onContactsClick:(id)event;
 - (IBAction)onDialerClick:(id)event;
-- (IBAction)onChatClick:(id)event;
 
 @end

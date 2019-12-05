@@ -19,6 +19,7 @@
 
 #import "TabBarView.h"
 #import "PhoneMainView.h"
+#import "linphone-Swift.h"
 
 @implementation TabBarView
 
@@ -67,7 +68,7 @@
 }
 
 - (void)messageReceived:(NSNotification *)notif {
-	[self updateUnreadMessage:TRUE];
+	//[self updateUnreadMessage:TRUE];
 }
 
 #pragma mark - UI Update
@@ -75,17 +76,6 @@
 - (void)update:(BOOL)appear {
 	[self updateSelectedButton:[PhoneMainView.instance currentView]];
 	[self updateMissedCall:linphone_core_get_missed_calls_count(LC) appear:appear];
-	[self updateUnreadMessage:appear];
-}
-
-- (void)updateUnreadMessage:(BOOL)appear {
-	int unreadMessage = [LinphoneManager unreadMessageCount];
-	if (unreadMessage > 0) {
-		_chatNotificationLabel.text = [NSString stringWithFormat:@"%i", unreadMessage];
-		[_chatNotificationView startAnimating:appear];
-	} else {
-		[_chatNotificationView stopAnimating:appear];
-	}
 }
 
 - (void)updateMissedCall:(int)missedCall appear:(BOOL)appear {
@@ -103,11 +93,7 @@
 	_contactsButton.selected = [view equal:ContactsListView.compositeViewDescription] ||
 							   [view equal:ContactDetailsView.compositeViewDescription];
 	_dialerButton.selected = [view equal:DialerView.compositeViewDescription];
-	_chatButton.selected = [view equal:ChatsListView.compositeViewDescription] ||
-						   [view equal:ChatConversationCreateView.compositeViewDescription] ||
-						   [view equal:ChatConversationInfoView.compositeViewDescription] ||
-						   [view equal:ChatConversationImdnView.compositeViewDescription] ||
-						   [view equal:ChatConversationView.compositeViewDescription];
+    _scheduleButton.selected =  [view equal:ScheduleListViewImpl.compositeViewDescription];
 	CGRect selectedNewFrame = _selectedButtonImage.frame;
 	if ([self viewIsCurrentlyPortrait]) {
 		selectedNewFrame.origin.x =
@@ -117,8 +103,8 @@
 						? _contactsButton.frame.origin.x
 						: (_dialerButton.selected
 							   ? _dialerButton.frame.origin.x
-							   : (_chatButton.selected
-									  ? _chatButton.frame.origin.x
+							   : (_scheduleButton.selected
+									  ? _scheduleButton.frame.origin.x
 									  : -selectedNewFrame.size.width /*hide it if none is selected*/))));
 	} else {
 		selectedNewFrame.origin.y =
@@ -128,8 +114,8 @@
 						? _contactsButton.frame.origin.y
 						: (_dialerButton.selected
 							   ? _dialerButton.frame.origin.y
-							   : (_chatButton.selected
-									  ? _chatButton.frame.origin.y
+							   : (_scheduleButton.selected
+									  ? _scheduleButton.frame.origin.y
 									  : -selectedNewFrame.size.height /*hide it if none is selected*/))));
 	}
 
@@ -165,8 +151,8 @@
 	[PhoneMainView.instance changeCurrentView:SettingsView.compositeViewDescription];
 }
 
-- (IBAction)onChatClick:(id)event {
-	[PhoneMainView.instance changeCurrentView:ChatsListView.compositeViewDescription];
+- (IBAction)onScheduleClick:(id)event {
+    [PhoneMainView.instance changeCurrentView:ScheduleListViewImpl.compositeViewDescription];
 }
 
 @end

@@ -73,8 +73,6 @@
 		5E32944520E4C29000BBA896 /* chat_delivered.png in Resources */ = {isa = PBXBuildFile; fileRef = 244523AC1E8266CC0037A187 /* chat_delivered.png */; };
 		5E32944C20E4C29300BBA896 /* chat_error.png in Resources */ = {isa = PBXBuildFile; fileRef = 244523AD1E8266CC0037A187 /* chat_error.png */; };
 		5E32944D20E4C29700BBA896 /* chat_read.png in Resources */ = {isa = PBXBuildFile; fileRef = 244523AE1E8266CC0037A187 /* chat_read.png */; };
-		5E3391EC20E387E000F66299 /* color_A.png in Resources */ = {isa = PBXBuildFile; fileRef = 633FEC701D3CD5570014B822 /* color_A.png */; };
-		5E3391F320E387E700F66299 /* color_D.png in Resources */ = {isa = PBXBuildFile; fileRef = 633FEC721D3CD5570014B822 /* color_D.png */; };
 		5E58962420DCE5700030868C /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C73477B1D9BA3A00022EE8C /* UserNotifications.framework */; };
 		5E58962620DCE5700030868C /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E58962520DCE5700030868C /* UserNotificationsUI.framework */; };
 		5E58962A20DCE5700030868C /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E58962920DCE5700030868C /* NotificationViewController.m */; };
@@ -308,16 +306,6 @@
 		633FEE271D3CD5590014B822 /* checkbox_checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 633FEC6D1D3CD5570014B822 /* checkbox_checked@2x.png */; };
 		633FEE281D3CD5590014B822 /* checkbox_unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 633FEC6E1D3CD5570014B822 /* checkbox_unchecked.png */; };
 		633FEE291D3CD5590014B822 /* checkbox_unchecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 633FEC6F1D3CD5570014B822 /* checkbox_unchecked@2x.png */; };
-		633FEE2A1D3CD5590014B822 /* color_A.png in Resources */ = {isa = PBXBuildFile; fileRef = 633FEC701D3CD5570014B822 /* color_A.png */; };
-		633FEE2B1D3CD5590014B822 /* color_C.png in Resources */ = {isa = PBXBuildFile; fileRef = 633FEC711D3CD5570014B822 /* color_C.png */; };
-		633FEE2C1D3CD5590014B822 /* color_D.png in Resources */ = {isa = PBXBuildFile; fileRef = 633FEC721D3CD5570014B822 /* color_D.png */; };
-		633FEE2D1D3CD5590014B822 /* color_E.png in Resources */ = {isa = PBXBuildFile; fileRef = 633FEC731D3CD5570014B822 /* color_E.png */; };
-		633FEE2E1D3CD5590014B822 /* color_F.png in Resources */ = {isa = PBXBuildFile; fileRef = 633FEC741D3CD5570014B822 /* color_F.png */; };
-		633FEE2F1D3CD5590014B822 /* color_G.png in Resources */ = {isa = PBXBuildFile; fileRef = 633FEC751D3CD5570014B822 /* color_G.png */; };
-		633FEE301D3CD5590014B822 /* color_H.png in Resources */ = {isa = PBXBuildFile; fileRef = 633FEC761D3CD5570014B822 /* color_H.png */; };
-		633FEE311D3CD5590014B822 /* color_I.png in Resources */ = {isa = PBXBuildFile; fileRef = 633FEC771D3CD5570014B822 /* color_I.png */; };
-		633FEE321D3CD5590014B822 /* color_L.png in Resources */ = {isa = PBXBuildFile; fileRef = 633FEC781D3CD5570014B822 /* color_L.png */; };
-		633FEE331D3CD5590014B822 /* color_M.png in Resources */ = {isa = PBXBuildFile; fileRef = 633FEC791D3CD5570014B822 /* color_M.png */; };
 		633FEE341D3CD5590014B822 /* conference_exit_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 633FEC7A1D3CD5570014B822 /* conference_exit_default.png */; };
 		633FEE351D3CD5590014B822 /* conference_exit_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 633FEC7B1D3CD5570014B822 /* conference_exit_default@2x.png */; };
 		633FEE361D3CD5590014B822 /* conference_exit_over.png in Resources */ = {isa = PBXBuildFile; fileRef = 633FEC7C1D3CD5570014B822 /* conference_exit_over.png */; };
@@ -713,6 +701,23 @@
 		8CF25D961F9F336100BEA0C1 /* check_unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF25D941F9F336100BEA0C1 /* check_unselected.png */; };
 		8CF25D9D1F9F76BD00BEA0C1 /* chat_group_informations.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF25D9B1F9F76BC00BEA0C1 /* chat_group_informations.png */; };
 		8CF25D9E1F9F76BD00BEA0C1 /* chat_group_informations@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF25D9C1F9F76BD00BEA0C1 /* chat_group_informations@2x.png */; };
+		920438ED2395733F002C75C5 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920438E92395733F002C75C5 /* ScheduleViewController.swift */; };
+		920438EE2395733F002C75C5 /* ScheduleCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920438EA2395733F002C75C5 /* ScheduleCreateView.swift */; };
+		920438EF2395733F002C75C5 /* ScheduleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920438EB2395733F002C75C5 /* ScheduleListView.swift */; };
+		920438F2239573F8002C75C5 /* UIScheduleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 920438F0239573F8002C75C5 /* UIScheduleCell.xib */; };
+		920438F3239573F8002C75C5 /* UIScheduleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920438F1239573F8002C75C5 /* UIScheduleCell.swift */; };
+		920438F62395784C002C75C5 /* ScheduleListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 920438F52395784C002C75C5 /* ScheduleListView.xib */; };
+		920438F923957B9A002C75C5 /* ScheduleCreateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 920438F823957B9A002C75C5 /* ScheduleCreateView.xib */; };
+		92B7285723970C75002AD43B /* color_D.png in Resources */ = {isa = PBXBuildFile; fileRef = 92B7284C23970C74002AD43B /* color_D.png */; };
+		92B7285923970C75002AD43B /* color_F.png in Resources */ = {isa = PBXBuildFile; fileRef = 92B7284E23970C74002AD43B /* color_F.png */; };
+		92B7285A23970C75002AD43B /* color_E.png in Resources */ = {isa = PBXBuildFile; fileRef = 92B7284F23970C74002AD43B /* color_E.png */; };
+		92B7285B23970C75002AD43B /* color_H.png in Resources */ = {isa = PBXBuildFile; fileRef = 92B7285023970C75002AD43B /* color_H.png */; };
+		92B7285C23970C75002AD43B /* color_I.png in Resources */ = {isa = PBXBuildFile; fileRef = 92B7285123970C75002AD43B /* color_I.png */; };
+		92B7285D23970C75002AD43B /* color_L.png in Resources */ = {isa = PBXBuildFile; fileRef = 92B7285223970C75002AD43B /* color_L.png */; };
+		92B7285E23970C75002AD43B /* color_A.png in Resources */ = {isa = PBXBuildFile; fileRef = 92B7285323970C75002AD43B /* color_A.png */; };
+		92B7285F23970C75002AD43B /* color_G.png in Resources */ = {isa = PBXBuildFile; fileRef = 92B7285423970C75002AD43B /* color_G.png */; };
+		92B7286023970C75002AD43B /* color_M.png in Resources */ = {isa = PBXBuildFile; fileRef = 92B7285523970C75002AD43B /* color_M.png */; };
+		92B7286123970C75002AD43B /* color_C.png in Resources */ = {isa = PBXBuildFile; fileRef = 92B7285623970C75002AD43B /* color_C.png */; };
 		A634ABAFCB39B6AAE4CA991D /* Pods_linphone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65CEDD144CABFAA70A29AF27 /* Pods_linphone.framework */; };
 		C5D3371994961EDAE2311A1E /* Pods_liblinphoneTesterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D252FEC7DD06DD5695A320A1 /* Pods_liblinphoneTesterTests.framework */; };
 		C90FAA7915AF54E6002091CB /* HistoryDetailsView.m in Sources */ = {isa = PBXBuildFile; fileRef = C90FAA7715AF54E6002091CB /* HistoryDetailsView.m */; };
@@ -1285,16 +1290,6 @@
 		633FEC6D1D3CD5570014B822 /* checkbox_checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox_checked@2x.png"; sourceTree = "<group>"; };
 		633FEC6E1D3CD5570014B822 /* checkbox_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_unchecked.png; sourceTree = "<group>"; };
 		633FEC6F1D3CD5570014B822 /* checkbox_unchecked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox_unchecked@2x.png"; sourceTree = "<group>"; };
-		633FEC701D3CD5570014B822 /* color_A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_A.png; sourceTree = "<group>"; };
-		633FEC711D3CD5570014B822 /* color_C.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_C.png; sourceTree = "<group>"; };
-		633FEC721D3CD5570014B822 /* color_D.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_D.png; sourceTree = "<group>"; };
-		633FEC731D3CD5570014B822 /* color_E.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_E.png; sourceTree = "<group>"; };
-		633FEC741D3CD5570014B822 /* color_F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_F.png; sourceTree = "<group>"; };
-		633FEC751D3CD5570014B822 /* color_G.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_G.png; sourceTree = "<group>"; };
-		633FEC761D3CD5570014B822 /* color_H.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_H.png; sourceTree = "<group>"; };
-		633FEC771D3CD5570014B822 /* color_I.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_I.png; sourceTree = "<group>"; };
-		633FEC781D3CD5570014B822 /* color_L.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_L.png; sourceTree = "<group>"; };
-		633FEC791D3CD5570014B822 /* color_M.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_M.png; sourceTree = "<group>"; };
 		633FEC7A1D3CD5570014B822 /* conference_exit_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = conference_exit_default.png; sourceTree = "<group>"; };
 		633FEC7B1D3CD5570014B822 /* conference_exit_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "conference_exit_default@2x.png"; sourceTree = "<group>"; };
 		633FEC7C1D3CD5570014B822 /* conference_exit_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = conference_exit_over.png; sourceTree = "<group>"; };
@@ -1797,6 +1792,24 @@
 		8CF25D941F9F336100BEA0C1 /* check_unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check_unselected.png; sourceTree = "<group>"; };
 		8CF25D9B1F9F76BC00BEA0C1 /* chat_group_informations.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_group_informations.png; sourceTree = "<group>"; };
 		8CF25D9C1F9F76BD00BEA0C1 /* chat_group_informations@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat_group_informations@2x.png"; sourceTree = "<group>"; };
+		920438E72395733E002C75C5 /* linphone-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "linphone-Bridging-Header.h"; sourceTree = "<group>"; };
+		920438E92395733F002C75C5 /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		920438EA2395733F002C75C5 /* ScheduleCreateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleCreateView.swift; sourceTree = "<group>"; };
+		920438EB2395733F002C75C5 /* ScheduleListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleListView.swift; sourceTree = "<group>"; };
+		920438F0239573F8002C75C5 /* UIScheduleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIScheduleCell.xib; sourceTree = "<group>"; };
+		920438F1239573F8002C75C5 /* UIScheduleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScheduleCell.swift; sourceTree = "<group>"; };
+		920438F52395784C002C75C5 /* ScheduleListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScheduleListView.xib; sourceTree = "<group>"; };
+		920438F823957B9A002C75C5 /* ScheduleCreateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScheduleCreateView.xib; sourceTree = "<group>"; };
+		92B7284C23970C74002AD43B /* color_D.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = color_D.png; path = "../../../../Old stuff/linphone-iphone/Resources/images/color_D.png"; sourceTree = "<group>"; };
+		92B7284E23970C74002AD43B /* color_F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = color_F.png; path = "../../../../Old stuff/linphone-iphone/Resources/images/color_F.png"; sourceTree = "<group>"; };
+		92B7284F23970C74002AD43B /* color_E.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = color_E.png; path = "../../../../Old stuff/linphone-iphone/Resources/images/color_E.png"; sourceTree = "<group>"; };
+		92B7285023970C75002AD43B /* color_H.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = color_H.png; path = "../../../../Old stuff/linphone-iphone/Resources/images/color_H.png"; sourceTree = "<group>"; };
+		92B7285123970C75002AD43B /* color_I.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = color_I.png; path = "../../../../Old stuff/linphone-iphone/Resources/images/color_I.png"; sourceTree = "<group>"; };
+		92B7285223970C75002AD43B /* color_L.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = color_L.png; path = "../../../../Old stuff/linphone-iphone/Resources/images/color_L.png"; sourceTree = "<group>"; };
+		92B7285323970C75002AD43B /* color_A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = color_A.png; path = "../../../../Old stuff/linphone-iphone/Resources/images/color_A.png"; sourceTree = "<group>"; };
+		92B7285423970C75002AD43B /* color_G.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = color_G.png; path = "../../../../Old stuff/linphone-iphone/Resources/images/color_G.png"; sourceTree = "<group>"; };
+		92B7285523970C75002AD43B /* color_M.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = color_M.png; path = "../../../../Old stuff/linphone-iphone/Resources/images/color_M.png"; sourceTree = "<group>"; };
+		92B7285623970C75002AD43B /* color_C.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = color_C.png; path = "../../../../Old stuff/linphone-iphone/Resources/images/color_C.png"; sourceTree = "<group>"; };
 		9CBD6E980619195CB7EE32AC /* Pods_liblinphoneTester.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_liblinphoneTester.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB887316C42EE876A3051A9 /* Pods-linphoneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-linphoneTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-linphoneTests/Pods-linphoneTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BE06BDE664323B2A53469696 /* Pods-liblinphoneTesterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liblinphoneTesterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-liblinphoneTesterTests/Pods-liblinphoneTesterTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -2133,6 +2146,11 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				920438F52395784C002C75C5 /* ScheduleListView.xib */,
+				920438F823957B9A002C75C5 /* ScheduleCreateView.xib */,
+				920438EA2395733F002C75C5 /* ScheduleCreateView.swift */,
+				920438EB2395733F002C75C5 /* ScheduleListView.swift */,
+				920438E92395733F002C75C5 /* ScheduleViewController.swift */,
 				22E0A81D111C44E100B04932 /* AboutView.h */,
 				22E0A81C111C44E100B04932 /* AboutView.m */,
 				636316D31A1DEBCB0009B839 /* AboutView.xib */,
@@ -2266,6 +2284,7 @@
 				D326483415887D4400930C67 /* Utils */,
 				34216F3E1547EBCD00EA9777 /* VideoZoomHandler.h */,
 				34216F3F1547EBCD00EA9777 /* VideoZoomHandler.m */,
+				920438E72395733E002C75C5 /* linphone-Bridging-Header.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -2288,6 +2307,8 @@
 		2214EB7012F84668002A5394 /* LinphoneUI */ = {
 			isa = PBXGroup;
 			children = (
+				920438F1239573F8002C75C5 /* UIScheduleCell.swift */,
+				920438F0239573F8002C75C5 /* UIScheduleCell.xib */,
 				63F1DF421BCE618E00EDED90 /* UIAddressTextField.h */,
 				63F1DF431BCE618E00EDED90 /* UIAddressTextField.m */,
 				63C441C11BBC23ED0053DC5E /* UIAssistantTextField.h */,
@@ -2673,6 +2694,16 @@
 		633FEBE11D3CD5570014B822 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				92B7285323970C75002AD43B /* color_A.png */,
+				92B7285623970C75002AD43B /* color_C.png */,
+				92B7284C23970C74002AD43B /* color_D.png */,
+				92B7284F23970C74002AD43B /* color_E.png */,
+				92B7284E23970C74002AD43B /* color_F.png */,
+				92B7285423970C75002AD43B /* color_G.png */,
+				92B7285023970C75002AD43B /* color_H.png */,
+				92B7285123970C75002AD43B /* color_I.png */,
+				92B7285223970C75002AD43B /* color_L.png */,
+				92B7285523970C75002AD43B /* color_M.png */,
 				633FEBE21D3CD5570014B822 /* add_field_default.png */,
 				633FEBE31D3CD5570014B822 /* add_field_default@2x.png */,
 				633FEBE41D3CD5570014B822 /* add_field_over.png */,
@@ -2840,16 +2871,6 @@
 				61AEBEC72191E48400F35E7F /* chevron_list_close@2x.png */,
 				61AEBEC92191E49200F35E7F /* chevron_list_open.png */,
 				61AEBECB2191E4A300F35E7F /* chevron_list_open@2x.png */,
-				633FEC701D3CD5570014B822 /* color_A.png */,
-				633FEC711D3CD5570014B822 /* color_C.png */,
-				633FEC721D3CD5570014B822 /* color_D.png */,
-				633FEC731D3CD5570014B822 /* color_E.png */,
-				633FEC741D3CD5570014B822 /* color_F.png */,
-				633FEC751D3CD5570014B822 /* color_G.png */,
-				633FEC761D3CD5570014B822 /* color_H.png */,
-				633FEC771D3CD5570014B822 /* color_I.png */,
-				633FEC781D3CD5570014B822 /* color_L.png */,
-				633FEC791D3CD5570014B822 /* color_M.png */,
 				8CE24F551F8268840077AC0A /* conference_delete.png */,
 				8CE24F561F8268840077AC0A /* conference_delete@2x.png */,
 				633FEC7A1D3CD5570014B822 /* conference_exit_default.png */,
@@ -3402,7 +3423,6 @@
 				8CB438A61EE6A65D0006F944 /* ShellScript */,
 				5EF0C35020C806A5005081B0 /* Embed App Extensions */,
 				4D22DCAAC0231865D78AC1E6 /* [CP] Embed Pods Frameworks */,
-				A73A24C4B99B11012FDAA7CF /* [CP] Copy Pods Resources */,
 				614D0A1821E77F5300C43EDF /* ShellScript */,
 			);
 			buildRules = (
@@ -3512,7 +3532,6 @@
 				F0BB8BD21936208100974404 /* Frameworks */,
 				F0BB8BD31936208100974404 /* Resources */,
 				A68C4E88E4EC059C04D389FE /* [CP] Embed Pods Frameworks */,
-				61C84B4200D58AABECCE326E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -3554,6 +3573,7 @@
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
 						DevelopmentTeam = Z2V957B3D6;
+						LastSwiftMigration = 1120;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -3721,6 +3741,7 @@
 				633FEF3F1D3CD55A0014B822 /* security_pending@2x.png in Resources */,
 				24BFAAA4209B0630004F47A7 /* linphone_logo.png in Resources */,
 				633FEDC41D3CD5590014B822 /* call_hangup_disabled.png in Resources */,
+				92B7286123970C75002AD43B /* color_C.png in Resources */,
 				633FEDA81D3CD5590014B822 /* backspace_default.png in Resources */,
 				636316D11A1DEBCB0009B839 /* AboutView.xib in Resources */,
 				8CBD7BA620B6B82400E5DCC0 /* UIChatConversationInfoTableViewCell.xib in Resources */,
@@ -3728,7 +3749,6 @@
 				CF7602F8210898CC00749F76 /* rec_on_default.png in Resources */,
 				633FEF481D3CD55A0014B822 /* speaker_selected.png in Resources */,
 				633FEED91D3CD55A0014B822 /* numpad_7~ipad.png in Resources */,
-				633FEE2B1D3CD5590014B822 /* color_C.png in Resources */,
 				633FEE871D3CD5590014B822 /* led_inprogress@2x.png in Resources */,
 				633FEEC61D3CD55A0014B822 /* numpad_5_over@2x.png in Resources */,
 				633FEF021D3CD55A0014B822 /* options_disabled.png in Resources */,
@@ -3736,7 +3756,6 @@
 				8CB2B8FA1F86229E0015CEE2 /* next_disabled.png in Resources */,
 				8CF25D961F9F336100BEA0C1 /* check_unselected.png in Resources */,
 				8C300D9A1E40E0CC00728EF3 /* lime_ko.png in Resources */,
-				633FEE311D3CD5590014B822 /* color_I.png in Resources */,
 				633FEF1F1D3CD55A0014B822 /* presence_online@2x.png in Resources */,
 				633FEE641D3CD5590014B822 /* footer_chat_disabled.png in Resources */,
 				633FEE9C1D3CD55A0014B822 /* numpad_0_default@2x.png in Resources */,
@@ -3752,6 +3771,7 @@
 				633FEF091D3CD55A0014B822 /* options_start_conference_disabled@2x.png in Resources */,
 				633FEE051D3CD5590014B822 /* cancel_edit_disabled@2x.png in Resources */,
 				633FEE5F1D3CD5590014B822 /* edit_list_default@2x.png in Resources */,
+				92B7285F23970C75002AD43B /* color_G.png in Resources */,
 				633FEEB61D3CD55A0014B822 /* numpad_3_over@2x.png in Resources */,
 				633FEF371D3CD55A0014B822 /* routes_disabled@2x.png in Resources */,
 				633FEE0F1D3CD5590014B822 /* chat_attachment_over@2x.png in Resources */,
@@ -3761,12 +3781,12 @@
 				633FEEE01D3CD55A0014B822 /* numpad_8_over~ipad@2x.png in Resources */,
 				633FEDDC1D3CD5590014B822 /* call_start_body_disabled~ipad.png in Resources */,
 				63E802DB1C625AEF000D5509 /* (null) in Resources */,
-				633FEE2E1D3CD5590014B822 /* color_F.png in Resources */,
 				633FEDC51D3CD5590014B822 /* call_hangup_disabled@2x.png in Resources */,
 				633FEEDF1D3CD55A0014B822 /* numpad_8_over~ipad.png in Resources */,
 				8CD99A372090A824008A7CDA /* splashscreen@2x.png in Resources */,
 				24BFAAA9209B0630004F47A7 /* linphone_logo@2x.png in Resources */,
 				633FEE071D3CD5590014B822 /* chat_add_default@2x.png in Resources */,
+				92B7286023970C75002AD43B /* color_M.png in Resources */,
 				633FEF551D3CD55A0014B822 /* waiting_time@2x.png in Resources */,
 				633FEEAC1D3CD55A0014B822 /* numpad_2_default@2x.png in Resources */,
 				633FEE541D3CD5590014B822 /* dialer_back_default.png in Resources */,
@@ -3788,7 +3808,6 @@
 				633FED9C1D3CD5590014B822 /* add_field_default.png in Resources */,
 				633FEE411D3CD5590014B822 /* contacts_all_selected@2x.png in Resources */,
 				D38187F815FE355D00C3EDCA /* TabBarView.xib in Resources */,
-				633FEE2F1D3CD5590014B822 /* color_G.png in Resources */,
 				633FEECE1D3CD55A0014B822 /* numpad_6_over@2x.png in Resources */,
 				8C92ABE81FA773190006FB5D /* UIChatNotifiedEventCell.xib in Resources */,
 				633FEDAB1D3CD5590014B822 /* backspace_disabled@2x.png in Resources */,
@@ -3883,12 +3902,12 @@
 				633FEE4B1D3CD5590014B822 /* delete_disabled@2x.png in Resources */,
 				633FEE181D3CD5590014B822 /* chat_send_over.png in Resources */,
 				633FEDED1D3CD5590014B822 /* call_status_outgoing~ipad@2x.png in Resources */,
-				633FEE2D1D3CD5590014B822 /* color_E.png in Resources */,
 				633FEED01D3CD55A0014B822 /* numpad_6_over~ipad@2x.png in Resources */,
 				633FEEC81D3CD55A0014B822 /* numpad_5_over~ipad@2x.png in Resources */,
 				61586B91217A175D0038AC45 /* menu_recordings.png in Resources */,
 				633FEF1B1D3CD55A0014B822 /* presence_away@2x.png in Resources */,
 				633FEE281D3CD5590014B822 /* checkbox_unchecked.png in Resources */,
+				92B7285C23970C75002AD43B /* color_I.png in Resources */,
 				633FEE9D1D3CD55A0014B822 /* numpad_0_over.png in Resources */,
 				633FEEC21D3CD55A0014B822 /* numpad_4~ipad@2x.png in Resources */,
 				633FEDFE1D3CD5590014B822 /* camera_switch_disabled.png in Resources */,
@@ -3896,6 +3915,7 @@
 				633FEDC01D3CD5590014B822 /* call_back_disabled.png in Resources */,
 				633FEED31D3CD55A0014B822 /* numpad_7_default.png in Resources */,
 				63130FB21C1ED06900371918 /* SideMenuView~ipad.xib in Resources */,
+				920438F2239573F8002C75C5 /* UIScheduleCell.xib in Resources */,
 				633FEEE71D3CD55A0014B822 /* numpad_9_over~ipad.png in Resources */,
 				633FEEEA1D3CD55A0014B822 /* numpad_9~ipad@2x.png in Resources */,
 				633FEEC31D3CD55A0014B822 /* numpad_5_default.png in Resources */,
@@ -3909,6 +3929,7 @@
 				615A2821217F6FBF0060F920 /* security_alert_indicator@2x.png in Resources */,
 				633FEE1E1D3CD5590014B822 /* chat_start_body_disabled.png in Resources */,
 				639CEB001A1DF4E4004DE38F /* UIHistoryCell.xib in Resources */,
+				920438F923957B9A002C75C5 /* ScheduleCreateView.xib in Resources */,
 				633FEE841D3CD5590014B822 /* led_error.png in Resources */,
 				633FEDEA1D3CD5590014B822 /* call_status_outgoing.png in Resources */,
 				633FEF511D3CD55A0014B822 /* valid_disabled@2x.png in Resources */,
@@ -3925,7 +3946,6 @@
 				633FEF141D3CD55A0014B822 /* pause_small_default.png in Resources */,
 				D38187B115FE340500C3EDCA /* ChatsListView.xib in Resources */,
 				633FEDA41D3CD5590014B822 /* back_default.png in Resources */,
-				633FEE2C1D3CD5590014B822 /* color_D.png in Resources */,
 				615A280F217F1FD50060F920 /* chat_add_group.png in Resources */,
 				633FEEC41D3CD55A0014B822 /* numpad_5_default@2x.png in Resources */,
 				633FEDAC1D3CD5590014B822 /* backspace_over.png in Resources */,
@@ -3963,10 +3983,10 @@
 				24BFAA9E209B0630004F47A7 /* dialer_background.png in Resources */,
 				633FEE481D3CD5590014B822 /* delete_default.png in Resources */,
 				633FEEB01D3CD55A0014B822 /* numpad_2_over~ipad@2x.png in Resources */,
-				633FEE2A1D3CD5590014B822 /* color_A.png in Resources */,
 				633FEEA41D3CD55A0014B822 /* numpad_1_default@2x.png in Resources */,
 				63E27A321C4FECD000D332AE /* LaunchScreen.xib in Resources */,
 				633FEED11D3CD55A0014B822 /* numpad_6~ipad.png in Resources */,
+				92B7285B23970C75002AD43B /* color_H.png in Resources */,
 				CF7602E82108759A00749F76 /* UIRecordingCell.xib in Resources */,
 				633FEED21D3CD55A0014B822 /* numpad_6~ipad@2x.png in Resources */,
 				633FEDCD1D3CD5590014B822 /* call_quality_indicator_0@2x.png in Resources */,
@@ -4026,6 +4046,7 @@
 				633FEDB51D3CD5590014B822 /* call_alt_back_disabled@2x.png in Resources */,
 				631098521D4660630041F2B3 /* CountryListView.xib in Resources */,
 				633FEF271D3CD55A0014B822 /* route_bluetooth_selected@2x.png in Resources */,
+				92B7285A23970C75002AD43B /* color_E.png in Resources */,
 				633FEE111D3CD5590014B822 /* chat_list_indicator~ipad@2x.png in Resources */,
 				633FEEFC1D3CD55A0014B822 /* options_add_call_default.png in Resources */,
 				615A2819217F28160060F920 /* chat_list_indicator@2x.png in Resources */,
@@ -4095,11 +4116,11 @@
 				633FEDF81D3CD5590014B822 /* camera_disabled.png in Resources */,
 				8CB2B8FB1F86229E0015CEE2 /* next_disabled@2x.png in Resources */,
 				633FEEE91D3CD55A0014B822 /* numpad_9~ipad.png in Resources */,
-				633FEE331D3CD5590014B822 /* color_M.png in Resources */,
 				633FEE811D3CD5590014B822 /* led_connected@2x.png in Resources */,
 				8CA70AD51F9E285C00A3D2EB /* chat_group_add.png in Resources */,
 				633FEE9B1D3CD55A0014B822 /* numpad_0_default.png in Resources */,
 				633FEF411D3CD55A0014B822 /* select_all_default@2x.png in Resources */,
+				92B7285723970C75002AD43B /* color_D.png in Resources */,
 				633FEEFD1D3CD55A0014B822 /* options_add_call_default@2x.png in Resources */,
 				633FEEA81D3CD55A0014B822 /* numpad_1_over~ipad@2x.png in Resources */,
 				D38187AD15FE340100C3EDCA /* ChatConversationView.xib in Resources */,
@@ -4163,6 +4184,7 @@
 				633FEF1E1D3CD55A0014B822 /* presence_online.png in Resources */,
 				8CE24F571F8268850077AC0A /* conference_delete.png in Resources */,
 				633FEDF41D3CD5590014B822 /* call_video_start_disabled.png in Resources */,
+				920438F62395784C002C75C5 /* ScheduleListView.xib in Resources */,
 				633FEDD31D3CD5590014B822 /* call_quality_indicator_3@2x.png in Resources */,
 				633FEE3A1D3CD5590014B822 /* contact_add_disabled.png in Resources */,
 				633FEEA11D3CD55A0014B822 /* numpad_0~ipad.png in Resources */,
@@ -4172,11 +4194,11 @@
 				633FEEAB1D3CD55A0014B822 /* numpad_2_default.png in Resources */,
 				633FEE851D3CD5590014B822 /* led_error@2x.png in Resources */,
 				633FEDBE1D3CD5590014B822 /* call_back_default.png in Resources */,
+				92B7285E23970C75002AD43B /* color_A.png in Resources */,
 				633FEF0F1D3CD55A0014B822 /* pause_big_default@2x.png in Resources */,
 				CF7602F6210898CC00749F76 /* rec_on_default@2x.png in Resources */,
 				633FEF081D3CD55A0014B822 /* options_start_conference_disabled.png in Resources */,
 				63F1DF511BCE986A00EDED90 /* UICallConferenceCell.xib in Resources */,
-				633FEE301D3CD5590014B822 /* color_H.png in Resources */,
 				633FEE7D1D3CD5590014B822 /* history_missed_disabled@2x.png in Resources */,
 				633FEE941D3CD55A0014B822 /* micro_default.png in Resources */,
 				633FEE611D3CD5590014B822 /* edit_list_disabled@2x.png in Resources */,
@@ -4197,6 +4219,7 @@
 				633FEEAA1D3CD55A0014B822 /* numpad_1~ipad@2x.png in Resources */,
 				633FEDEC1D3CD5590014B822 /* call_status_outgoing~ipad.png in Resources */,
 				633FEDE51D3CD5590014B822 /* call_status_incoming~ipad@2x.png in Resources */,
+				92B7285923970C75002AD43B /* color_F.png in Resources */,
 				633FEEE11D3CD55A0014B822 /* numpad_8~ipad.png in Resources */,
 				633FEF101D3CD55A0014B822 /* pause_big_disabled.png in Resources */,
 				633FEE221D3CD5590014B822 /* chat_start_body_over.png in Resources */,
@@ -4248,7 +4271,6 @@
 				633FEEF51D3CD55A0014B822 /* numpad_star_default@2x.png in Resources */,
 				639E9CA91C0DB7FB00019A75 /* UIConfirmationDialog.xib in Resources */,
 				633FEF111D3CD55A0014B822 /* pause_big_disabled@2x.png in Resources */,
-				633FEE321D3CD5590014B822 /* color_L.png in Resources */,
 				615A281F217F6FB40060F920 /* security_alert_indicator.png in Resources */,
 				CF7602F5210898CC00749F76 /* rec_off_default@2x.png in Resources */,
 				633FEDB41D3CD5590014B822 /* call_alt_back_disabled.png in Resources */,
@@ -4281,6 +4303,7 @@
 				633FEE791D3CD5590014B822 /* history_chat_indicator@2x.png in Resources */,
 				633FEEBA1D3CD55A0014B822 /* numpad_3~ipad@2x.png in Resources */,
 				633FEEA61D3CD55A0014B822 /* numpad_1_over@2x.png in Resources */,
+				92B7285D23970C75002AD43B /* color_L.png in Resources */,
 				633FEE371D3CD5590014B822 /* conference_exit_over@2x.png in Resources */,
 				639E9CA01C0DB7E500019A75 /* UIChatBubblePhotoCell.xib in Resources */,
 				633FEE4E1D3CD5590014B822 /* delete_field_over.png in Resources */,
@@ -4318,9 +4341,7 @@
 				5E32944C20E4C29300BBA896 /* chat_error.png in Resources */,
 				5E32944D20E4C29700BBA896 /* chat_read.png in Resources */,
 				5E32944520E4C29000BBA896 /* chat_delivered.png in Resources */,
-				5E3391F320E387E700F66299 /* color_D.png in Resources */,
 				5E58962D20DCE5700030868C /* MainInterface.storyboard in Resources */,
-				5E3391EC20E387E000F66299 /* color_A.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4400,15 +4421,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-linphoneTests/Pods-linphoneTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/KIF/KIF.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KIF.framework",
 			);
@@ -4424,34 +4441,32 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-linphone/Pods-linphone-frameworks.sh",
-				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/bctoolbox-tester.framework",
-				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/bctoolbox.framework",
-				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/belcard.framework",
-				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/belr.framework",
-				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/lime.framework",
-				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/limetester.framework",
-				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/linphone.framework",
-				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/linphonetester.framework",
-				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/mediastreamer2.framework",
-				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/msamr.framework",
-				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/mscodec2.framework",
-				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/msopenh264.framework",
-				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/mssilk.framework",
-				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/mswebrtc.framework",
-				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/msx264.framework",
-				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/ortp.framework",
+				"${PODS_ROOT}/../../linphone-sdk/build/linphone-sdk/apple-darwin/Frameworks/bctoolbox-ios.framework",
+				"${PODS_ROOT}/../../linphone-sdk/build/linphone-sdk/apple-darwin/Frameworks/bctoolbox.framework",
+				"${PODS_ROOT}/../../linphone-sdk/build/linphone-sdk/apple-darwin/Frameworks/belcard.framework",
+				"${PODS_ROOT}/../../linphone-sdk/build/linphone-sdk/apple-darwin/Frameworks/belle-sip.framework",
+				"${PODS_ROOT}/../../linphone-sdk/build/linphone-sdk/apple-darwin/Frameworks/belr.framework",
+				"${PODS_ROOT}/../../linphone-sdk/build/linphone-sdk/apple-darwin/Frameworks/lime.framework",
+				"${PODS_ROOT}/../../linphone-sdk/build/linphone-sdk/apple-darwin/Frameworks/linphone.framework",
+				"${PODS_ROOT}/../../linphone-sdk/build/linphone-sdk/apple-darwin/Frameworks/mediastreamer2.framework",
+				"${PODS_ROOT}/../../linphone-sdk/build/linphone-sdk/apple-darwin/Frameworks/msamr.framework",
+				"${PODS_ROOT}/../../linphone-sdk/build/linphone-sdk/apple-darwin/Frameworks/mscodec2.framework",
+				"${PODS_ROOT}/../../linphone-sdk/build/linphone-sdk/apple-darwin/Frameworks/msopenh264.framework",
+				"${PODS_ROOT}/../../linphone-sdk/build/linphone-sdk/apple-darwin/Frameworks/mssilk.framework",
+				"${PODS_ROOT}/../../linphone-sdk/build/linphone-sdk/apple-darwin/Frameworks/mswebrtc.framework",
+				"${PODS_ROOT}/../../linphone-sdk/build/linphone-sdk/apple-darwin/Frameworks/msx264.framework",
+				"${PODS_ROOT}/../../linphone-sdk/build/linphone-sdk/apple-darwin/Frameworks/ortp.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/bctoolbox-tester.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/bctoolbox-ios.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/bctoolbox.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/belcard.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/belle-sip.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/belr.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/lime.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/limetester.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/linphone.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/linphonetester.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/mediastreamer2.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/msamr.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/mscodec2.framework",
@@ -4501,28 +4516,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if USE_CRASHLYTHICS; then\n    ${PODS_ROOT}/Fabric/run\nfi\n";
-		};
-		61C84B4200D58AABECCE326E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-liblinphoneTester/Pods-liblinphoneTester-resources.sh",
-				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Resources/liblinphone_tester",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/liblinphone_tester",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-liblinphoneTester/Pods-liblinphoneTester-resources.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		63DCC71D1A07B08E00916627 /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -4594,33 +4587,31 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-liblinphoneTester/Pods-liblinphoneTester-frameworks.sh",
-				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/bctoolbox-tester.framework",
-				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/bctoolbox.framework",
-				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/belcard.framework",
-				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/belr.framework",
-				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/lime.framework",
-				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/limetester.framework",
-				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/linphone.framework",
-				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/linphonetester.framework",
-				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/mediastreamer2.framework",
-				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/msamr.framework",
-				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/mscodec2.framework",
-				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/msopenh264.framework",
-				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/mssilk.framework",
-				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/mswebrtc.framework",
-				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/msx264.framework",
-				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/ortp.framework",
+				"${PODS_ROOT}/../../linphone-sdk/build/linphone-sdk/apple-darwin/Frameworks/bctoolbox-ios.framework",
+				"${PODS_ROOT}/../../linphone-sdk/build/linphone-sdk/apple-darwin/Frameworks/bctoolbox.framework",
+				"${PODS_ROOT}/../../linphone-sdk/build/linphone-sdk/apple-darwin/Frameworks/belcard.framework",
+				"${PODS_ROOT}/../../linphone-sdk/build/linphone-sdk/apple-darwin/Frameworks/belle-sip.framework",
+				"${PODS_ROOT}/../../linphone-sdk/build/linphone-sdk/apple-darwin/Frameworks/belr.framework",
+				"${PODS_ROOT}/../../linphone-sdk/build/linphone-sdk/apple-darwin/Frameworks/lime.framework",
+				"${PODS_ROOT}/../../linphone-sdk/build/linphone-sdk/apple-darwin/Frameworks/linphone.framework",
+				"${PODS_ROOT}/../../linphone-sdk/build/linphone-sdk/apple-darwin/Frameworks/mediastreamer2.framework",
+				"${PODS_ROOT}/../../linphone-sdk/build/linphone-sdk/apple-darwin/Frameworks/msamr.framework",
+				"${PODS_ROOT}/../../linphone-sdk/build/linphone-sdk/apple-darwin/Frameworks/mscodec2.framework",
+				"${PODS_ROOT}/../../linphone-sdk/build/linphone-sdk/apple-darwin/Frameworks/msopenh264.framework",
+				"${PODS_ROOT}/../../linphone-sdk/build/linphone-sdk/apple-darwin/Frameworks/mssilk.framework",
+				"${PODS_ROOT}/../../linphone-sdk/build/linphone-sdk/apple-darwin/Frameworks/mswebrtc.framework",
+				"${PODS_ROOT}/../../linphone-sdk/build/linphone-sdk/apple-darwin/Frameworks/msx264.framework",
+				"${PODS_ROOT}/../../linphone-sdk/build/linphone-sdk/apple-darwin/Frameworks/ortp.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/bctoolbox-tester.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/bctoolbox-ios.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/bctoolbox.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/belcard.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/belle-sip.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/belr.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/lime.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/limetester.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/linphone.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/linphonetester.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/mediastreamer2.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/msamr.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/mscodec2.framework",
@@ -4633,28 +4624,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-liblinphoneTester/Pods-liblinphoneTester-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A73A24C4B99B11012FDAA7CF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-linphone/Pods-linphone-resources.sh",
-				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Resources/liblinphone_tester",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/liblinphone_tester",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-linphone/Pods-linphone-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F43E063274A630F02AB2AAEC /* [CP] Check Pods Manifest.lock */ = {
@@ -4688,6 +4657,7 @@
 				8CD99A3C2090B9FA008A7CDA /* ChatConversationImdnView.m in Sources */,
 				1D3623260D0F684500981E51 /* LinphoneAppDelegate.m in Sources */,
 				CF15F21E20E4F9A3008B1DE6 /* UIImageViewDeletable.m in Sources */,
+				920438F3239573F8002C75C5 /* UIScheduleCell.swift in Sources */,
 				22F2508E107141E100AC9B3F /* DialerView.m in Sources */,
 				633756451B67D2B200E21BAD /* SideMenuView.m in Sources */,
 				8CD99A422090CE6F008A7CDA /* UIChatConversationImdnTableViewCell.m in Sources */,
@@ -4729,6 +4699,7 @@
 				D3549816158761D0000081D8 /* ContactsListTableView.m in Sources */,
 				633888461BFB2C49001D5E7B /* HPTextViewInternal.m in Sources */,
 				D35498211587716B000081D8 /* StatusBarView.m in Sources */,
+				920438EE2395733F002C75C5 /* ScheduleCreateView.swift in Sources */,
 				D3A55FBC15877E5E003FD403 /* UIContactCell.m in Sources */,
 				6341807C1BBC103100F71761 /* ChatConversationCreateTableView.m in Sources */,
 				63BE7A781D75BDF6000990EF /* ShopTableView.m in Sources */,
@@ -4764,6 +4735,8 @@
 				D3A8BB7015A6C7D500F96BE5 /* UIChatBubbleTextCell.m in Sources */,
 				63D11C531C3D501200E8FCEE /* Log.m in Sources */,
 				D3128FE115AABC7E00A2147A /* ContactDetailsView.m in Sources */,
+				920438EF2395733F002C75C5 /* ScheduleListView.swift in Sources */,
+				920438ED2395733F002C75C5 /* ScheduleViewController.swift in Sources */,
 				D37C639B15AADEF6009D0BAC /* ContactDetailsTableView.m in Sources */,
 				63E59A3F1ADE70D900646FB3 /* InAppProductsManager.m in Sources */,
 				D3C6526715AC1A8F0092A874 /* UIContactDetailsCell.m in Sources */,
@@ -5453,6 +5426,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_UNREACHABLE_CODE = NO;
 				CODE_SIGN_ENTITLEMENTS = linphone.entitlements;
@@ -5483,6 +5457,7 @@
 				);
 				INFOPLIST_FILE = "linphone-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
 				LINK_WITH_STANDARD_LIBRARIES = YES;
 				OTHER_CFLAGS = (
@@ -5491,7 +5466,7 @@
 					"-DENABLE_QRCODE=TRUE",
 					"-DENABLE_SMS_INVITE=TRUE",
 					"$(inherited)",
-					"-DLINPHONE_SDK_VERSION=\\\"4.3.0-alpha\\\"",
+					"-DLINPHONE_SDK_VERSION=\\\"4.3.0-alpha.41+4a6a4ef\\\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.linphone.phone;
 				PRODUCT_NAME = linphone;
@@ -5499,6 +5474,9 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
 				STRIP_SWIFT_SYMBOLS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Classes/linphone-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				WARNING_CFLAGS = (
 					"-Werror=objc-method-access",
 					"-Werror=incomplete-implementation",
@@ -5559,6 +5537,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_UNREACHABLE_CODE = NO;
 				CODE_SIGN_ENTITLEMENTS = linphone.entitlements;
@@ -5586,6 +5565,7 @@
 				);
 				INFOPLIST_FILE = "linphone-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
 				LINK_WITH_STANDARD_LIBRARIES = YES;
 				OTHER_CFLAGS = (
@@ -5594,7 +5574,7 @@
 					"-DENABLE_QRCODE=TRUE",
 					"-DENABLE_SMS_INVITE=TRUE",
 					"$(inherited)",
-					"-DLINPHONE_SDK_VERSION=\\\"4.3.0-alpha\\\"",
+					"-DLINPHONE_SDK_VERSION=\\\"4.3.0-alpha.41+4a6a4ef\\\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.linphone.phone;
 				PRODUCT_NAME = linphone;
@@ -5602,6 +5582,8 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
 				STRIP_SWIFT_SYMBOLS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Classes/linphone-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				WARNING_CFLAGS = (
 					"-Werror=objc-method-access",
 					"-Werror=incomplete-implementation",
@@ -5662,6 +5644,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_UNREACHABLE_CODE = NO;
 				CODE_SIGN_ENTITLEMENTS = linphone.entitlements;
@@ -5689,6 +5672,7 @@
 				);
 				INFOPLIST_FILE = "linphone-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
 				LINK_WITH_STANDARD_LIBRARIES = YES;
 				OTHER_CFLAGS = (
@@ -5697,7 +5681,7 @@
 					"-DENABLE_QRCODE=TRUE",
 					"-DENABLE_SMS_INVITE=TRUE",
 					"$(inherited)",
-					"-DLINPHONE_SDK_VERSION=\\\"4.3.0-alpha\\\"",
+					"-DLINPHONE_SDK_VERSION=\\\"4.3.0-alpha.41+4a6a4ef\\\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.linphone.phone;
 				PRODUCT_NAME = linphone;
@@ -5705,6 +5689,8 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
 				STRIP_SWIFT_SYMBOLS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Classes/linphone-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				WARNING_CFLAGS = (
 					"-Werror=objc-method-access",
 					"-Werror=incomplete-implementation",
@@ -5765,6 +5751,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_UNREACHABLE_CODE = NO;
 				CODE_SIGN_ENTITLEMENTS = linphone.entitlements;
@@ -5792,6 +5779,7 @@
 				);
 				INFOPLIST_FILE = "linphone-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
 				LINK_WITH_STANDARD_LIBRARIES = YES;
 				OTHER_CFLAGS = (
@@ -5800,7 +5788,7 @@
 					"-DENABLE_QRCODE=TRUE",
 					"-DENABLE_SMS_INVITE=TRUE",
 					"$(inherited)",
-					"-DLINPHONE_SDK_VERSION=\\\"4.3.0-alpha\\\"",
+					"-DLINPHONE_SDK_VERSION=\\\"4.3.0-alpha.41+4a6a4ef\\\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.linphone.phone;
 				PRODUCT_NAME = linphone;
@@ -5808,6 +5796,8 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
 				STRIP_SWIFT_SYMBOLS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Classes/linphone-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				WARNING_CFLAGS = (
 					"-Werror=objc-method-access",
 					"-Werror=incomplete-implementation",
@@ -6919,6 +6909,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ABB887316C42EE876A3051A9 /* Pods-linphoneTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -6969,6 +6960,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F6373F9231918DECD2B3004D /* Pods-linphoneTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -7017,6 +7009,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 85FB19B6A8124D942C8471F1 /* Pods-linphoneTests.distribution.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -7065,6 +7058,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CE119C214B6B8B2740622BBD /* Pods-linphoneTests.distributionadhoc.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
