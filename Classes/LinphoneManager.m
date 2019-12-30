@@ -432,7 +432,7 @@ static int check_should_migrate_images(void *data, int argc, char **argv, char *
 	}
 	/* File transfer migration */
 	if ([self lpConfigBoolForKey:@"file_transfer_migration_done"] == FALSE) {
-		const char *newURL = "https://www.linphone.org:444/lft.php";
+		const char *newURL = "https://www.vikingelectronics.com:444/lft.php";
 		LOGI(@"Migrating sharing server url from %s to %s", linphone_core_get_file_transfer_server(LC), newURL);
 		linphone_core_set_file_transfer_server(LC, newURL);
 		[self lpConfigSetBool:TRUE forKey:@"file_transfer_migration_done"];
@@ -2749,6 +2749,7 @@ static int comp_call_state_paused(const LinphoneCall *call, const void *param) {
 }
 
 - (void)configureVbrCodecs {
+    NSArray *x35Compatible = @[@"PCMU", @"PCMA", @"G722", @"H264"];
 	PayloadType *pt;
 	int bitrate = lp_config_get_int(
 					_configDb, "audio", "codec_bitrate_limit",
@@ -2757,7 +2758,7 @@ static int comp_call_state_paused(const LinphoneCall *call, const void *param) {
 	const MSList *codec = audio_codecs;
 	while (codec) {
 		pt = codec->data;
-		if (linphone_core_payload_type_is_vbr(theLinphoneCore, pt)) {
+        if (linphone_core_payload_type_is_vbr(theLinphoneCore, pt) && [x35Compatible containsObject:[NSString stringWithFormat:@"%s", pt->mime_type]]) {
 			linphone_core_set_payload_type_bitrate(theLinphoneCore, pt, bitrate);
 		}
 		codec = codec->next;

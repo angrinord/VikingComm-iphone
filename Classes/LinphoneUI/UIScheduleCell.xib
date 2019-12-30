@@ -58,7 +58,9 @@
                     </label>
                 </subviews>
             </tableViewCellContentView>
-            <accessibility key="accessibilityConfiguration" identifier="cell"/>
+            <accessibility key="accessibilityConfiguration" identifier="cell">
+                <bool key="isElement" value="YES"/>
+            </accessibility>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="days_Label" destination="cPD-Sc-KZk" id="njT-Bq-zcw"/>

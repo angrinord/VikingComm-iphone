@@ -20,8 +20,8 @@
 /* Class = "UILabel"; text = "Linphone iPhone 3.0"; ObjectID = "oYk-ih-BBi"; */
 "oYk-ih-BBi.text" = "Linphone iPhone 3.0";
 
-/* Class = "UILabel"; text = "https://www.linphone.org"; ObjectID = "uis-xz-Qsa"; */
-"uis-xz-Qsa.text" = "https://www.linphone.org";
+/* Class = "UILabel"; text = "https://www.vikingelectronics.com"; ObjectID = "uis-xz-Qsa"; */
+"uis-xz-Qsa.text" = "https://www.vikingelectronics.com";
 
 /* Class = "UIButton"; accessibilityLabel = "Add contact"; ObjectID = "vX8-wO-ZEN"; */
 "vX8-wO-ZEN.accessibilityLabel" = "Add contact";

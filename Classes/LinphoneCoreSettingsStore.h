@@ -26,6 +26,7 @@
   @public
 	NSDictionary *dict;
 	NSDictionary *changedDict;
+    NSArray *x35Compatible;
 }
 
 - (void)transformLinphoneCoreToKeys;

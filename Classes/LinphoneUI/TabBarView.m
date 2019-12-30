@@ -19,7 +19,7 @@
 
 #import "TabBarView.h"
 #import "PhoneMainView.h"
-#import "linphone-Swift.h"
+#import "Viking_Softphone-Swift.h"
 
 @implementation TabBarView
 
@@ -152,7 +152,7 @@
 }
 
 - (IBAction)onScheduleClick:(id)event {
-    [PhoneMainView.instance changeCurrentView:ScheduleListViewImpl.compositeViewDescription];
+    [PhoneMainView.instance changeCurrentView:NewScheduleListViewImpl.compositeViewDescription];
 }
 
 @end

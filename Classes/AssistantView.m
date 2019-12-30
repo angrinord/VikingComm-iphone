@@ -113,12 +113,13 @@ static UICompositeViewDescription *compositeDescription = nil;
 		new_config = NULL;
 		number_of_configs_before = bctbx_list_size(linphone_core_get_proxy_config_list(LC));
 		[self resetTextFields];
-		[self changeView:_welcomeView back:FALSE animation:FALSE];
+		[self changeView:_loginView back:FALSE animation:FALSE];
 	}
 	mustRestoreView = NO;
 	_outgoingView = DialerView.compositeViewDescription;
     _qrCodeButton.hidden = !ENABLE_QRCODE;
 	[self resetLiblinphone:FALSE];
+//    [self onGotoLoginClick:nil];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
@@ -187,7 +188,7 @@ static UICompositeViewDescription *compositeDescription = nil;
 - (void)reset {
 	[LinphoneManager.instance removeAllAccounts];
 	[self resetTextFields];
-	[self changeView:_welcomeView back:FALSE animation:FALSE];
+	[self changeView:_loginView back:FALSE animation:FALSE];
 	_waitView.hidden = TRUE;
 }
 
@@ -618,7 +619,7 @@ static UICompositeViewDescription *compositeDescription = nil;
 #if DEBUG
 		UIAssistantTextField *atf =
 			(UIAssistantTextField *)[self findView:ViewElement_Domain inView:view ofType:UIAssistantTextField.class];
-		atf.text = @"test.linphone.org";
+		atf.text = @"sip.myviking.com:5799";
 #endif
 	}
 	phone_number_length = 0;
@@ -1588,10 +1589,10 @@ void assistant_is_account_linked(LinphoneAccountCreator *creator, LinphoneAccoun
 			UIView *view = [historyViews lastObject];
 			[historyViews removeLastObject];
 			[self changeView:view back:TRUE animation:TRUE];
-		} else if (currentView == _welcomeView) {
+		} else if (currentView == _loginView) {
 			[PhoneMainView.instance popCurrentView];
 		} else {
-			[self changeView:_welcomeView back:TRUE animation:TRUE];
+			[self changeView:_loginView back:TRUE animation:TRUE];
 		}
 	} else {
 		[self onDialerClick:nil];
@@ -1634,7 +1635,7 @@ void assistant_is_account_linked(LinphoneAccountCreator *creator, LinphoneAccoun
             [historyViews removeLastObject];
             [self changeView:view back:TRUE animation:TRUE];
         } else {
-            [self changeView:_welcomeView back:TRUE animation:TRUE];
+            [self changeView:_loginView back:TRUE animation:TRUE];
         }
     }
 }

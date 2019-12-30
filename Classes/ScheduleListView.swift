@@ -16,7 +16,6 @@ class ScheduleListViewImpl: UIViewController, ScheduleListView {
     @IBOutlet var addButton: UIButton!
     @IBOutlet var deleteButton: UIButton!
     @IBOutlet var toolbar: UIView!
-    @IBOutlet var tableView: UITableView!
     @IBOutlet var tableController: ScheduleViewController! = ScheduleViewController()
     @IBOutlet var cancelButton: UIButton!
     @IBOutlet var selectAll: UIButton!
@@ -43,10 +42,6 @@ class ScheduleListViewImpl: UIViewController, ScheduleListView {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableController.tableView.accessibilityIdentifier = "Schedule table"
-        tableView.register(UIScheduleCell.self, forCellReuseIdentifier: "cell")
-        tableView.delegate = tableController
-        tableView.dataSource = tableController
     }
     
     override func viewWillAppear(_ animated: Bool) {

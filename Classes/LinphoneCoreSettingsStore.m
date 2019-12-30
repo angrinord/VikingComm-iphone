@@ -33,6 +33,7 @@
 	if (self) {
 		dict = [[NSMutableDictionary alloc] init];
 		changedDict = [[NSMutableDictionary alloc] init];
+        x35Compatible = @[@"PCMU", @"PCMA", @"G722", @"H264"];
 	}
 	return self;
 }
@@ -129,13 +130,19 @@
 	const MSList *elem = codecs;
 	for (; elem != NULL; elem = elem->next) {
 		PayloadType *pt = (PayloadType *)elem->data;
-		NSString *pref = [LinphoneManager getPreferenceForCodec:pt->mime_type withRate:pt->clock_rate];
-		if (pref) {
-			bool_t value = linphone_core_payload_type_enabled(LC, pt);
-			[self setBool:value forKey:pref];
-		} else {
-			LOGW(@"Codec %s/%i supported by core is not shown in iOS app config view.", pt->mime_type, pt->clock_rate);
-		}
+        NSString *str = [NSString stringWithFormat:@"%s", pt->mime_type];
+        if([x35Compatible containsObject:[NSString stringWithFormat:@"%s", pt->mime_type]]){
+            NSString *pref = [LinphoneManager getPreferenceForCodec:pt->mime_type withRate:pt->clock_rate];
+            if (pref) {
+                bool_t value = linphone_core_payload_type_enabled(LC, pt);
+                [self setBool:value forKey:pref];
+            } else {
+                LOGW(@"Codec %s/%i supported by core is not shown in iOS app config view.", pt->mime_type, pt->clock_rate);
+            }
+        }
+        else{
+            linphone_core_enable_payload_type(LC, pt, FALSE);
+        }
 	}
 }
 
@@ -190,8 +197,16 @@
 						  forKey:@"account_mandatory_username_preference"];
 				[self setCString:linphone_address_get_display_name(identity_addr)
 						  forKey:@"account_display_name_preference"];
-				[self setCString:linphone_address_get_domain(identity_addr)
-						  forKey:@"account_mandatory_domain_preference"];
+                if(port!=5060){
+                    char fullDomain[sizeof(linphone_address_get_domain(identity_addr))*2+sizeof(port)+2];
+                    sprintf(fullDomain, "%s:%d", linphone_address_get_domain(identity_addr), port);
+                    [self setCString:fullDomain
+                    forKey:@"account_mandatory_domain_preference"];
+                }
+                else{
+                    [self setCString:linphone_address_get_domain(identity_addr)
+                    forKey:@"account_mandatory_domain_preference"];
+                }
 				if (strcmp(linphone_address_get_domain(identity_addr), linphone_address_get_domain(proxy_addr)) != 0 ||
 					port > 0) {
 					char tmp[256] = {0};
@@ -530,8 +545,8 @@
 			proxy = linphone_address_as_string_uri_only(proxy_addr);
 		}
 
-		proxyCfg = bctbx_list_nth_data(linphone_core_get_proxy_config_list(LC),
-									   [self integerForKey:@"current_proxy_config_preference"]);
+        NSArray *fullDomain = [domain componentsSeparatedByString:@":"];
+		proxyCfg = bctbx_list_nth_data(linphone_core_get_proxy_config_list(LC), [self integerForKey:@"current_proxy_config_preference"]);
 		// if account was deleted, it is not present anymore
 		if (proxyCfg == NULL)
 			goto bad_proxy;
@@ -546,7 +561,13 @@
 				ms_free(user);
 			}
 		}
-		linphone_address_set_domain(linphoneAddress, [domain UTF8String]);
+        if(fullDomain.count>1){
+            linphone_address_set_port(linphoneAddress, [[fullDomain objectAtIndex:1] integerValue]);
+            linphone_address_set_domain(linphoneAddress, [[fullDomain objectAtIndex:0] UTF8String]);
+        }
+        else{
+            linphone_address_set_domain(linphoneAddress, [domain UTF8String]);
+        }
 		linphone_address_set_display_name(linphoneAddress, (displayName.length ? displayName.UTF8String : NULL));
 		const char *identity = linphone_address_as_string(linphoneAddress);
 		linphone_address_destroy(linphoneAddress);
@@ -664,8 +685,13 @@
 
 	for (elem = codecs; elem != NULL; elem = elem->next) {
 		pt = (PayloadType *)elem->data;
-		NSString *pref = [LinphoneManager getPreferenceForCodec:pt->mime_type withRate:pt->clock_rate];
-		linphone_core_enable_payload_type(LC, pt, [self boolForKey:pref]);
+        if([x35Compatible containsObject:[NSString stringWithFormat:@"%s", pt->mime_type]]){
+            NSString *pref = [LinphoneManager getPreferenceForCodec:pt->mime_type withRate:pt->clock_rate];
+            linphone_core_enable_payload_type(LC, pt, [self boolForKey:pref]);
+        }
+        else{
+            linphone_core_enable_payload_type(LC, pt, FALSE);
+        }
 	}
 }
 

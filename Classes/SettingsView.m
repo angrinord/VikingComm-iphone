@@ -888,7 +888,6 @@ void update_hash_cbs(LinphoneAccountCreator *creator, LinphoneAccountCreatorStat
 																		   } else {
 																			   linphone_account_creator_set_ha1(account_creator, linphone_auth_info_get_ha1(ai));
 																		   }
-																		   
 																		   linphone_account_creator_set_domain(account_creator, linphone_auth_info_get_domain(ai));
 																		   linphone_account_creator_set_user_data(
 																			   account_creator, (void *)pwd.UTF8String);

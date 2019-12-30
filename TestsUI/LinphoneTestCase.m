@@ -158,7 +158,7 @@
 		linphone_auth_info_unref(testAuth);
 		linphone_address_unref(testAddr);
 
-		linphone_core_set_file_transfer_server(lc, "https://www.linphone.org:444/lft.php");
+		linphone_core_set_file_transfer_server(lc, "https://www.vikingelectronics.com:444/lft.php");
 
 		// reload address book to prepend proxy config domain to contacts' phone number
 		[[[LinphoneManager instance] fastAddressBook] fetchContactsInBackGroundThread];

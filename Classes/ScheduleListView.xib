@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES">
-    <device id="retina6_1" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -15,10 +13,9 @@
                 <outlet property="cancelButton" destination="MZP-cb-ntf" id="xAu-By-AHt"/>
                 <outlet property="deleteButton" destination="tFB-Vf-lUX" id="g4r-SW-fPp"/>
                 <outlet property="selectAll" destination="5lZ-u7-Yex" id="ZKh-DM-Dio"/>
-                <outlet property="tableController" destination="Pbe-3k-T09" id="IUd-bd-pkv"/>
-                <outlet property="tableView" destination="zOo-FS-W6l" id="eMI-AR-ysA"/>
+                <outlet property="tableController" destination="Pbe-3k-T09" id="inf-Vv-fTn"/>
                 <outlet property="toolbar" destination="3" id="3HI-Tb-Kun"/>
-                <outlet property="view" destination="2" id="xaZ-rJ-KRR"/>
+                <outlet property="view" destination="2" id="U0z-AX-J1b"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -26,19 +23,19 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" id="2">
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2">
                     <rect key="frame" x="0.0" y="42" width="375" height="559"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
-                        <view contentMode="scaleToFill" id="3" userLabel="topBar">
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3" userLabel="topBar">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="66"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="color_F.png" id="Ehd-EB-dCJ" userLabel="backgroundColor">
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="color_F.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ehd-EB-dCJ" userLabel="backgroundColor">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="66"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                 </imageView>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="4" userLabel="addButton" customClass="UIIconButton">
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4" userLabel="addButton" customClass="UIIconButton">
                                     <rect key="frame" x="0.0" y="0.0" width="75" height="66"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                     <accessibility key="accessibilityConfiguration" label="All contacts filter"/>
@@ -58,7 +55,7 @@
                                         <action selector="addSchedule:" destination="-1" eventType="touchUpInside" id="btZ-X7-Jgs"/>
                                     </connections>
                                 </button>
-                                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="MZP-cb-ntf" userLabel="cancelButton" customClass="UIIconButton">
+                                <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MZP-cb-ntf" userLabel="cancelButton" customClass="UIIconButton">
                                     <rect key="frame" x="0.0" y="0.0" width="75" height="66"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                     <accessibility key="accessibilityConfiguration" label="Delete all"/>
@@ -71,7 +68,7 @@
                                         <action selector="exitEditMode:" destination="-1" eventType="touchUpInside" id="ewH-7k-NOd"/>
                                     </connections>
                                 </button>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="tFB-Vf-lUX" userLabel="deleteButton" customClass="UIIconButton">
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tFB-Vf-lUX" userLabel="deleteButton" customClass="UIIconButton">
                                     <rect key="frame" x="300" y="0.0" width="75" height="66"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                     <accessibility key="accessibilityConfiguration" label="Delete all"/>
@@ -85,7 +82,7 @@
                                         <action selector="deleteSchedule:" destination="-1" eventType="touchUpInside" id="wPt-gP-OxN"/>
                                     </connections>
                                 </button>
-                                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="5lZ-u7-Yex" userLabel="toggleSelectionButton" customClass="UIIconButton">
+                                <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5lZ-u7-Yex" userLabel="toggleSelectionButton" customClass="UIIconButton">
                                     <rect key="frame" x="225" y="0.0" width="75" height="66"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                     <accessibility key="accessibilityConfiguration" label="Select all"/>
@@ -100,19 +97,18 @@
                                 </button>
                             </subviews>
                         </view>
-                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" allowsSelectionDuringEditing="YES" allowsMultipleSelectionDuringEditing="YES" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="zOo-FS-W6l" userLabel="tableView">
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" allowsSelectionDuringEditing="YES" allowsMultipleSelectionDuringEditing="YES" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="zOo-FS-W6l" userLabel="tableView">
                             <rect key="frame" x="0.0" y="64" width="375" height="495"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <inset key="contentInset" minX="0.0" minY="0.0" maxX="0.0" maxY="10"/>
                             <inset key="scrollIndicatorInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="10"/>
                             <color key="separatorColor" red="0.67030966281890869" green="0.71867996454238892" blue="0.75078284740447998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
-                                <outlet property="dataSource" destination="Pbe-3k-T09" id="e60-bf-Bto"/>
-                                <outlet property="delegate" destination="Pbe-3k-T09" id="1DP-W9-pmz"/>
+                                <outlet property="dataSource" destination="Pbe-3k-T09" id="yRb-Xx-gms"/>
+                                <outlet property="delegate" destination="Pbe-3k-T09" id="gDz-dd-yTG"/>
                             </connections>
                         </tableView>
-                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Schedules Set" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="JR3-k7-gVP" userLabel="emptyTableLabel">
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="No Schedules Set" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JR3-k7-gVP" userLabel="emptyTableLabel">
                             <rect key="frame" x="0.0" y="110" width="375" height="449"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -128,7 +124,8 @@
         </view>
         <tableViewController id="Pbe-3k-T09" customClass="ScheduleViewController" customModule="linphone" customModuleProvider="target">
             <connections>
-                <outlet property="tableView" destination="zOo-FS-W6l" id="itk-wo-Hvj"/>
+                <outlet property="emptyView" destination="JR3-k7-gVP" id="e6V-OH-QAZ"/>
+                <outlet property="view" destination="zOo-FS-W6l" id="gaI-NC-cFz"/>
             </connections>
             <point key="canvasLocation" x="743" y="148"/>
         </tableViewController>

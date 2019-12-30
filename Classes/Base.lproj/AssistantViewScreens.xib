@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -29,7 +27,7 @@
                 <outlet property="loginView" destination="56" id="bJH-N8-uPi"/>
                 <outlet property="phoneLabel" destination="ZSJ-Lv-n60" id="5Qi-xR-wyK"/>
                 <outlet property="phoneTitle" destination="rAy-0V-sqv" id="MZq-EF-6HF"/>
-                <outlet property="qrCodeButton" destination="2T9-bt-FHD" id="5M5-Fj-q4E"/>
+                <outlet property="qrCodeButton" destination="9Oi-IX-zq7" id="9yW-9f-2qd"/>
                 <outlet property="qrCodeView" destination="Z2R-SD-yFJ" id="dcs-rK-HgK"/>
                 <outlet property="remoteProvisioningLoginView" destination="xVK-hL-6pe" id="pKL-9M-Vsa"/>
                 <outlet property="remoteProvisioningView" destination="Zuh-Sd-pcd" id="3pa-2M-5Xq"/>
@@ -296,7 +294,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <textField opaque="NO" clipsSubviews="YES" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" adjustsFontSizeToFit="NO" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="OLm-Nz-ouj" userLabel="usernameField" customClass="UIAssistantTextField">
-                            <rect key="frame" x="38" y="23" width="299" height="30"/>
+                            <rect key="frame" x="38" y="23" width="299" height="34"/>
                             <color key="backgroundColor" red="0.85415387153625488" green="0.85412830114364624" blue="0.85414278507232666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <accessibility key="accessibilityConfiguration" label="Username"/>
                             <color key="textColor" red="0.20521381497383118" green="0.20520767569541931" blue="0.20521116256713867" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -308,7 +306,7 @@
                             </connections>
                         </textField>
                         <label opaque="NO" userInteractionEnabled="NO" tag="410" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Invalid username" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="SJT-EF-scd" userLabel="usernameErrorLabel">
-                            <rect key="frame" x="38" y="57" width="299" height="10"/>
+                            <rect key="frame" x="38" y="61" width="299" height="10"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="10" id="8CL-eS-SgV"/>
                             </constraints>
@@ -348,7 +346,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <textField opaque="NO" clipsSubviews="YES" tag="103" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" adjustsFontSizeToFit="NO" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="IXr-i2-LEh" userLabel="emailField" customClass="UIAssistantTextField">
-                            <rect key="frame" x="38" y="22" width="291" height="30"/>
+                            <rect key="frame" x="38" y="22" width="291" height="34"/>
                             <color key="backgroundColor" red="0.85415387153625488" green="0.85412830114364624" blue="0.85414278507232666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <accessibility key="accessibilityConfiguration" label="Email"/>
                             <color key="textColor" red="0.20521381497383118" green="0.20520767569541931" blue="0.20521116256713867" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -360,7 +358,7 @@
                             </connections>
                         </textField>
                         <label opaque="NO" userInteractionEnabled="NO" tag="410" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Invalid email" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="1r3-gy-l29" userLabel="emailErrorLabel">
-                            <rect key="frame" x="38" y="52" width="291" height="10"/>
+                            <rect key="frame" x="38" y="56" width="291" height="10"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="10" id="DxN-0P-gw6"/>
                             </constraints>
@@ -369,7 +367,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PASSWORD" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p25-jF-I9X" userLabel="passwordLabel">
-                            <rect key="frame" x="38" y="76" width="291" height="14"/>
+                            <rect key="frame" x="38" y="80" width="291" height="14"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="14" id="yWO-rf-S2R"/>
                             </constraints>
@@ -378,7 +376,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <textField opaque="NO" clipsSubviews="YES" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" adjustsFontSizeToFit="NO" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="t14-fe-grq" userLabel="passwordField" customClass="UIAssistantTextField">
-                            <rect key="frame" x="38" y="101" width="291" height="30"/>
+                            <rect key="frame" x="38" y="105" width="291" height="34"/>
                             <color key="backgroundColor" red="0.85415387153625488" green="0.85412830114364624" blue="0.85414278507232666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <accessibility key="accessibilityConfiguration" label="Password "/>
                             <color key="textColor" red="0.20521381497383118" green="0.20520767569541931" blue="0.20521116256713867" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -390,7 +388,7 @@
                             </connections>
                         </textField>
                         <label opaque="NO" userInteractionEnabled="NO" tag="410" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Invalid password" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="J5q-GY-AW4" userLabel="passwordErrorLabel">
-                            <rect key="frame" x="38" y="131" width="291" height="10"/>
+                            <rect key="frame" x="38" y="139" width="291" height="10"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="10" id="EZT-D6-c3H"/>
                             </constraints>
@@ -399,7 +397,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PASSWORD CONFIRMATION" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fpk-Vv-LB0" userLabel="password2Label">
-                            <rect key="frame" x="38" y="153" width="291" height="14"/>
+                            <rect key="frame" x="38" y="161" width="291" height="14"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="14" id="aRv-BL-3ug"/>
                             </constraints>
@@ -408,7 +406,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <textField opaque="NO" clipsSubviews="YES" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" adjustsFontSizeToFit="NO" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="kHS-3H-oHM" userLabel="password2Field" customClass="UIAssistantTextField">
-                            <rect key="frame" x="38" y="175" width="291" height="30"/>
+                            <rect key="frame" x="38" y="183" width="291" height="34"/>
                             <color key="backgroundColor" red="0.85415387153625488" green="0.85412830114364624" blue="0.85414278507232666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <accessibility key="accessibilityConfiguration" label="Password confirmation"/>
                             <color key="textColor" red="0.20521381497383118" green="0.20520767569541931" blue="0.20521116256713867" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -419,7 +417,7 @@
                             </connections>
                         </textField>
                         <label opaque="NO" userInteractionEnabled="NO" tag="410" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Passwords do not match" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="DgP-rE-2dp" userLabel="password2ErrorLabel">
-                            <rect key="frame" x="38" y="205" width="291" height="10"/>
+                            <rect key="frame" x="38" y="217" width="291" height="10"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="10" id="gT0-em-DfO"/>
                             </constraints>
@@ -1213,6 +1211,14 @@ Once it is done, come back here and click on the button.</string>
                         <action selector="onLoginClick:" destination="-1" eventType="touchUpInside" id="LKg-hT-sDN"/>
                     </connections>
                 </button>
+                <button contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Oi-IX-zq7" userLabel="qrButton">
+                    <rect key="frame" x="318" y="1" width="56" height="58"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="qrcode" catalog="system"/>
+                    <connections>
+                        <action selector="onLaunchQRCodeView:" destination="-1" eventType="touchUpInside" id="3jG-ag-r2S"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
@@ -1271,7 +1277,7 @@ Once it is done, come back here and click on the button.</string>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="1490" y="264"/>
+            <point key="canvasLocation" x="1489.5999999999999" y="263.56821589205401"/>
         </view>
         <view contentMode="scaleToFill" id="Zuh-Sd-pcd" userLabel="remoteProvisioningView">
             <rect key="frame" x="0.0" y="0.0" width="375" height="347"/>
@@ -1558,10 +1564,11 @@ Once it is done, come back here and click on the button.</string>
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask"/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-            <point key="canvasLocation" x="1918" y="554"/>
+            <point key="canvasLocation" x="2263" y="304"/>
         </view>
     </objects>
     <resources>
         <image name="color_F.png" width="2" height="2"/>
+        <image name="qrcode" catalog="system" width="64" height="56"/>
     </resources>
 </document>

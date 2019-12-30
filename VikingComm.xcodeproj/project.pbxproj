@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,7 +13,7 @@
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		221234461D9E682100DEFA1F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63AADBCA1B6A0FF200AA16FD /* Images.xcassets */; };
+		221234461D9E682100DEFA1F /* AppIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63AADBCA1B6A0FF200AA16FD /* AppIcon.xcassets */; };
 		2214EB7A12F846B1002A5394 /* UICallButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2214EB7912F846B1002A5394 /* UICallButton.m */; };
 		2214EB8912F84EBB002A5394 /* UIHangUpButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2214EB8812F84EBB002A5394 /* UIHangUpButton.m */; };
 		2214EBF312F86360002A5394 /* UIMutedMicroButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2214EBF212F86360002A5394 /* UIMutedMicroButton.m */; };
@@ -61,7 +61,6 @@
 		3C4CCF18D4DA173FC144654A /* Pods_linphoneExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEBE8FB918176C388C01CFF7 /* Pods_linphoneExtension.framework */; };
 		570742581D5A0691004B9C84 /* ShopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 570742561D5A0691004B9C84 /* ShopView.xib */; };
 		570742611D5A09B8004B9C84 /* ShopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5707425F1D5A09B8004B9C84 /* ShopView.m */; };
-		570742671D5A63DB004B9C84 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570742661D5A63DB004B9C84 /* StoreKit.framework */; };
 		5E10ED4820D00630002BF6FE /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 633FEBE61D3CD5570014B822 /* avatar.png */; };
 		5E10ED4920D006C9002BF6FE /* chat_group_avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C2A81941F87B8000012A66B /* chat_group_avatar.png */; };
 		5E223A9920E244B400D06A36 /* NotificationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E223A9820E244B400D06A36 /* NotificationTableViewCell.m */; };
@@ -118,7 +117,7 @@
 		6180D6FE21EE41A800AD9CB6 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6180D6FD21EE41A800AD9CB6 /* QuickLook.framework */; };
 		61AE364F20C00B370089D9D3 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61AE364E20C00B370089D9D3 /* ShareViewController.m */; };
 		61AE365220C00B370089D9D3 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61AE365020C00B370089D9D3 /* MainInterface.storyboard */; };
-		61AE365620C00B370089D9D3 /* linphoneExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 61AE364B20C00B370089D9D3 /* linphoneExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		61AE365620C00B370089D9D3 /* VikingCommExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 61AE364B20C00B370089D9D3 /* VikingCommExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		61AEBEA321906AFC00F35E7F /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		61AEBEBD2191990A00F35E7F /* DevicesListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61AEBEBC2191990A00F35E7F /* DevicesListView.m */; };
 		61AEBEBF2191991F00F35E7F /* DevicesListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61AEBEBE2191991F00F35E7F /* DevicesListView.xib */; };
@@ -614,7 +613,7 @@
 		639E9CB01C0DB83000019A75 /* SideMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 639E9CB21C0DB83000019A75 /* SideMenuView.xib */; };
 		639E9CB51C0DB88200019A75 /* PhoneMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 639E9CB31C0DB88200019A75 /* PhoneMainView.xib */; };
 		63AADBE81B6A0FF200AA16FD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63AADBC41B6A0FF200AA16FD /* Localizable.strings */; };
-		63AADBEA1B6A0FF200AA16FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63AADBCA1B6A0FF200AA16FD /* Images.xcassets */; };
+		63AADBEA1B6A0FF200AA16FD /* AppIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63AADBCA1B6A0FF200AA16FD /* AppIcon.xcassets */; };
 		63AADBF51B6A0FF200AA16FD /* linphonerc in Resources */ = {isa = PBXBuildFile; fileRef = 63AADBD71B6A0FF200AA16FD /* linphonerc */; };
 		63AADBF61B6A0FF200AA16FD /* linphonerc-factory in Resources */ = {isa = PBXBuildFile; fileRef = 63AADBD81B6A0FF200AA16FD /* linphonerc-factory */; };
 		63AADBF81B6A0FF200AA16FD /* linphonerc~ipad in Resources */ = {isa = PBXBuildFile; fileRef = 63AADBDA1B6A0FF200AA16FD /* linphonerc~ipad */; };
@@ -708,6 +707,8 @@
 		920438F3239573F8002C75C5 /* UIScheduleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920438F1239573F8002C75C5 /* UIScheduleCell.swift */; };
 		920438F62395784C002C75C5 /* ScheduleListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 920438F52395784C002C75C5 /* ScheduleListView.xib */; };
 		920438F923957B9A002C75C5 /* ScheduleCreateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 920438F823957B9A002C75C5 /* ScheduleCreateView.xib */; };
+		9292A78A239AF7DA00A9A2A7 /* NewScheduleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9292A788239AF7DA00A9A2A7 /* NewScheduleListView.swift */; };
+		9292A78B239AF7DA00A9A2A7 /* NewScheduleListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9292A789239AF7DA00A9A2A7 /* NewScheduleListView.xib */; };
 		92B7285723970C75002AD43B /* color_D.png in Resources */ = {isa = PBXBuildFile; fileRef = 92B7284C23970C74002AD43B /* color_D.png */; };
 		92B7285923970C75002AD43B /* color_F.png in Resources */ = {isa = PBXBuildFile; fileRef = 92B7284E23970C74002AD43B /* color_F.png */; };
 		92B7285A23970C75002AD43B /* color_E.png in Resources */ = {isa = PBXBuildFile; fileRef = 92B7284F23970C74002AD43B /* color_E.png */; };
@@ -908,7 +909,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				61AE365620C00B370089D9D3 /* linphoneExtension.appex in Embed App Extensions */,
+				61AE365620C00B370089D9D3 /* VikingCommExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -931,7 +932,7 @@
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* LinphoneAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinphoneAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* LinphoneAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinphoneAppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* linphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = linphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* Viking Softphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Viking Softphone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2214EB7812F846B1002A5394 /* UICallButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICallButton.h; sourceTree = "<group>"; };
 		2214EB7912F846B1002A5394 /* UICallButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICallButton.m; sourceTree = "<group>"; };
@@ -993,7 +994,7 @@
 		283F127CA480E2E2CF0DE9C2 /* Pods-linphoneExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-linphoneExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-linphoneExtension/Pods-linphoneExtension.release.xcconfig"; sourceTree = "<group>"; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		32CA4F630368D1EE00C91783 /* linphone_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linphone_Prefix.pch; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* VikingComm_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VikingComm_Prefix.pch; sourceTree = "<group>"; };
 		340751961506459A00B89C47 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		340751E5150F38FC00B89C47 /* UIVideoButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIVideoButton.h; sourceTree = "<group>"; };
 		340751E6150F38FD00B89C47 /* UIVideoButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIVideoButton.m; sourceTree = "<group>"; };
@@ -1007,7 +1008,6 @@
 		5707425F1D5A09B8004B9C84 /* ShopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopView.m; sourceTree = "<group>"; };
 		570742601D5A09B8004B9C84 /* ShopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopView.h; sourceTree = "<group>"; };
 		570742631D5A1860004B9C84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ShopView.strings; sourceTree = "<group>"; };
-		570742661D5A63DB004B9C84 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		5E223A9720E244B400D06A36 /* NotificationTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationTableViewCell.h; sourceTree = "<group>"; };
 		5E223A9820E244B400D06A36 /* NotificationTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationTableViewCell.m; sourceTree = "<group>"; };
 		5E30780420D8F00D00256DAE /* latestChatroomsWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = latestChatroomsWidget.entitlements; sourceTree = "<group>"; };
@@ -1066,7 +1066,7 @@
 		615A28412180C0820060F920 /* recording.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recording.png; sourceTree = "<group>"; };
 		615A28432180C08F0060F920 /* recording@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "recording@2x.png"; sourceTree = "<group>"; };
 		6180D6FD21EE41A800AD9CB6 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
-		61AE364B20C00B370089D9D3 /* linphoneExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = linphoneExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		61AE364B20C00B370089D9D3 /* VikingCommExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = VikingCommExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		61AE364D20C00B370089D9D3 /* ShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
 		61AE364E20C00B370089D9D3 /* ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
 		61AE365120C00B370089D9D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
@@ -1616,7 +1616,7 @@
 		63AADBC51B6A0FF200AA16FD /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		63AADBC61B6A0FF200AA16FD /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		63AADBC71B6A0FF200AA16FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		63AADBCA1B6A0FF200AA16FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		63AADBCA1B6A0FF200AA16FD /* AppIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIcon.xcassets; sourceTree = "<group>"; };
 		63AADBCB1B6A0FF200AA16FD /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		63AADBD71B6A0FF200AA16FD /* linphonerc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = linphonerc; sourceTree = "<group>"; };
 		63AADBD81B6A0FF200AA16FD /* linphonerc-factory */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "linphonerc-factory"; sourceTree = "<group>"; };
@@ -1800,6 +1800,8 @@
 		920438F1239573F8002C75C5 /* UIScheduleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScheduleCell.swift; sourceTree = "<group>"; };
 		920438F52395784C002C75C5 /* ScheduleListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScheduleListView.xib; sourceTree = "<group>"; };
 		920438F823957B9A002C75C5 /* ScheduleCreateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScheduleCreateView.xib; sourceTree = "<group>"; };
+		9292A788239AF7DA00A9A2A7 /* NewScheduleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScheduleListView.swift; sourceTree = "<group>"; };
+		9292A789239AF7DA00A9A2A7 /* NewScheduleListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewScheduleListView.xib; sourceTree = "<group>"; };
 		92B7284C23970C74002AD43B /* color_D.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = color_D.png; path = "../../../../Old stuff/linphone-iphone/Resources/images/color_D.png"; sourceTree = "<group>"; };
 		92B7284E23970C74002AD43B /* color_F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = color_F.png; path = "../../../../Old stuff/linphone-iphone/Resources/images/color_F.png"; sourceTree = "<group>"; };
 		92B7284F23970C74002AD43B /* color_E.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = color_E.png; path = "../../../../Old stuff/linphone-iphone/Resources/images/color_E.png"; sourceTree = "<group>"; };
@@ -1961,7 +1963,7 @@
 		F0642EF019DAC891009DB336 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		F0642EF719DAF32E009DB336 /* DTWeakSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTWeakSupport.h; sourceTree = "<group>"; };
 		F088488C19FF8C41007FFCF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/UIContactCell.xib; sourceTree = "<group>"; };
-		F08F118419C09C6A007D70C2 /* liblinphoneTesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = liblinphoneTesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F08F118419C09C6A007D70C2 /* libVikingCommTesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = libVikingCommTesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0938158188E629800A55DFA /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
 		F09548181883F15300E8A69B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ChatConversationView.xib; sourceTree = "<group>"; };
 		F09548191883F15300E8A69B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ChatsListView.xib; sourceTree = "<group>"; };
@@ -2010,11 +2012,11 @@
 		F0AF07111A24BA770086C9C1 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/AssistantViewScreens.strings; sourceTree = "<group>"; };
 		F0B026F21AA710AF00FF49F7 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 		F0B89C2118DC89E30050B60E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		F0BB8BD51936208100974404 /* liblinphoneTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = liblinphoneTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0BB8BD51936208100974404 /* libVikingCommTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = libVikingCommTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0BB8C311936246600974404 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
 		F0BB8C34193624C800974404 /* libresolv.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.9.dylib; path = usr/lib/libresolv.9.dylib; sourceTree = SDKROOT; };
 		F0BB8C4A193631B300974404 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
-		F0F952001A6AEB1000254160 /* linphoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = linphoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F952001A6AEB1000254160 /* VikingCommTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VikingCommTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0FF66AA1ACAEEB0008A4486 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = ../../../../Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = "<group>"; };
 		F325590DD6CD7F6CC8F60C03 /* Pods_linphoneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_linphoneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6373F9231918DECD2B3004D /* Pods-linphoneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-linphoneTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-linphoneTests/Pods-linphoneTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -2042,7 +2044,6 @@
 				63CE58401C85EBF400304800 /* VideoToolbox.framework in Frameworks */,
 				6334DDFA1BBAC97C00631900 /* libsqlite3.dylib in Frameworks */,
 				152F22361B15E889008C0621 /* libxml2.dylib in Frameworks */,
-				570742671D5A63DB004B9C84 /* StoreKit.framework in Frameworks */,
 				22405EEE1600B4E400B92522 /* AssetsLibrary.framework in Frameworks */,
 				2274402F106F335E006EC466 /* AudioToolbox.framework in Frameworks */,
 				224567C2107B968500F10948 /* AVFoundation.framework in Frameworks */,
@@ -2146,9 +2147,14 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				920438F52395784C002C75C5 /* ScheduleListView.xib */,
+				D35497FB15875372000081D8 /* ContactsListView.h */,
+				D35497FC15875372000081D8 /* ContactsListView.m */,
+				D38187C015FE342800C3EDCA /* ContactsListView.xib */,
+				9292A788239AF7DA00A9A2A7 /* NewScheduleListView.swift */,
+				9292A789239AF7DA00A9A2A7 /* NewScheduleListView.xib */,
 				920438F823957B9A002C75C5 /* ScheduleCreateView.xib */,
 				920438EA2395733F002C75C5 /* ScheduleCreateView.swift */,
+				920438F52395784C002C75C5 /* ScheduleListView.xib */,
 				920438EB2395733F002C75C5 /* ScheduleListView.swift */,
 				920438E92395733F002C75C5 /* ScheduleViewController.swift */,
 				22E0A81D111C44E100B04932 /* AboutView.h */,
@@ -2208,9 +2214,6 @@
 				D38187BC15FE342200C3EDCA /* ContactDetailsView.xib */,
 				D3549814158761CF000081D8 /* ContactsListTableView.h */,
 				D3549815158761D0000081D8 /* ContactsListTableView.m */,
-				D35497FB15875372000081D8 /* ContactsListView.h */,
-				D35497FC15875372000081D8 /* ContactsListView.m */,
-				D38187C015FE342800C3EDCA /* ContactsListView.xib */,
 				631098501D4660630041F2B3 /* CountryListView.xib */,
 				631098471D4660580041F2B3 /* CountryListView.h */,
 				631098481D4660580041F2B3 /* CountryListView.m */,
@@ -2292,11 +2295,11 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* linphone.app */,
-				F0BB8BD51936208100974404 /* liblinphoneTester.app */,
-				F08F118419C09C6A007D70C2 /* liblinphoneTesterTests.xctest */,
-				F0F952001A6AEB1000254160 /* linphoneTests.xctest */,
-				61AE364B20C00B370089D9D3 /* linphoneExtension.appex */,
+				1D6058910D05DD3D006BFB54 /* Viking Softphone.app */,
+				F0BB8BD51936208100974404 /* libVikingCommTester.app */,
+				F08F118419C09C6A007D70C2 /* libVikingCommTesterTests.xctest */,
+				F0F952001A6AEB1000254160 /* VikingCommTests.xctest */,
+				61AE364B20C00B370089D9D3 /* VikingCommExtension.appex */,
 				5EEE8F9A20C80C23006E4176 /* latestCallsWidget.appex */,
 				5E31290020D7A37E00CF3AAE /* latestChatroomsWidget.appex */,
 				5E58962320DCE5700030868C /* richNotifications.appex */,
@@ -2453,7 +2456,7 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				32CA4F630368D1EE00C91783 /* linphone_Prefix.pch */,
+				32CA4F630368D1EE00C91783 /* VikingComm_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
@@ -2509,7 +2512,6 @@
 				70E542F413E147EB002BA2C0 /* QuartzCore.framework */,
 				22744043106F33FC006EC466 /* Security.framework */,
 				F0181B6B18BF7B1200A9A357 /* SenTestingKit.framework */,
-				570742661D5A63DB004B9C84 /* StoreKit.framework */,
 				2264B6D111200342002C2C53 /* SystemConfiguration.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				8C73477B1D9BA3A00022EE8C /* UserNotifications.framework */,
@@ -3210,7 +3212,7 @@
 				63AADBE41B6A0FF200AA16FD /* assistant_linphone_create.rc */,
 				63AADBE51B6A0FF200AA16FD /* assistant_linphone_existing.rc */,
 				63AADBE61B6A0FF200AA16FD /* assistant_remote.rc */,
-				63AADBCA1B6A0FF200AA16FD /* Images.xcassets */,
+				63AADBCA1B6A0FF200AA16FD /* AppIcon.xcassets */,
 				633FEBE11D3CD5570014B822 /* images */,
 				63AADBD71B6A0FF200AA16FD /* linphonerc */,
 				63AADBD81B6A0FF200AA16FD /* linphonerc-factory */,
@@ -3410,9 +3412,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* linphone */ = {
+		1D6058900D05DD3D006BFB54 /* VikingComm */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "linphone" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "VikingComm" */;
 			buildPhases = (
 				20EEEF6D60A7B77C2EFF85DB /* [CP] Check Pods Manifest.lock */,
 				1D60588D0D05DD3D006BFB54 /* Resources */,
@@ -3430,9 +3432,9 @@
 			dependencies = (
 				61AE365520C00B370089D9D3 /* PBXTargetDependency */,
 			);
-			name = linphone;
+			name = VikingComm;
 			productName = linphone;
-			productReference = 1D6058910D05DD3D006BFB54 /* linphone.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* Viking Softphone.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5E3128FF20D7A37E00CF3AAE /* latestChatroomsWidget */ = {
@@ -3486,9 +3488,9 @@
 			productReference = 5EEE8F9A20C80C23006E4176 /* latestCallsWidget.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		61AE364A20C00B370089D9D3 /* linphoneExtension */ = {
+		61AE364A20C00B370089D9D3 /* VikingCommExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 61AE366120C00B370089D9D3 /* Build configuration list for PBXNativeTarget "linphoneExtension" */;
+			buildConfigurationList = 61AE366120C00B370089D9D3 /* Build configuration list for PBXNativeTarget "VikingCommExtension" */;
 			buildPhases = (
 				F43E063274A630F02AB2AAEC /* [CP] Check Pods Manifest.lock */,
 				61AE364720C00B370089D9D3 /* Sources */,
@@ -3499,14 +3501,14 @@
 			);
 			dependencies = (
 			);
-			name = linphoneExtension;
+			name = VikingCommExtension;
 			productName = linphoneExtension;
-			productReference = 61AE364B20C00B370089D9D3 /* linphoneExtension.appex */;
+			productReference = 61AE364B20C00B370089D9D3 /* VikingCommExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		F08F118319C09C6A007D70C2 /* liblinphoneTesterTests */ = {
+		F08F118319C09C6A007D70C2 /* libVikingCommTesterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F08F119319C09C6B007D70C2 /* Build configuration list for PBXNativeTarget "liblinphoneTesterTests" */;
+			buildConfigurationList = F08F119319C09C6B007D70C2 /* Build configuration list for PBXNativeTarget "libVikingCommTesterTests" */;
 			buildPhases = (
 				5599CB1883357B4D67CCC202 /* [CP] Check Pods Manifest.lock */,
 				F08F118019C09C6A007D70C2 /* Sources */,
@@ -3518,14 +3520,14 @@
 			dependencies = (
 				F08F119219C09C6B007D70C2 /* PBXTargetDependency */,
 			);
-			name = liblinphoneTesterTests;
+			name = libVikingCommTesterTests;
 			productName = LinphoneTesterTests;
-			productReference = F08F118419C09C6A007D70C2 /* liblinphoneTesterTests.xctest */;
+			productReference = F08F118419C09C6A007D70C2 /* libVikingCommTesterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F0BB8BD41936208100974404 /* liblinphoneTester */ = {
+		F0BB8BD41936208100974404 /* libVikingCommTester */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F0BB8C051936208200974404 /* Build configuration list for PBXNativeTarget "liblinphoneTester" */;
+			buildConfigurationList = F0BB8C051936208200974404 /* Build configuration list for PBXNativeTarget "libVikingCommTester" */;
 			buildPhases = (
 				9B9A5E3BD753D3A8A6E82117 /* [CP] Check Pods Manifest.lock */,
 				F0BB8BD11936208100974404 /* Sources */,
@@ -3537,14 +3539,14 @@
 			);
 			dependencies = (
 			);
-			name = liblinphoneTester;
+			name = libVikingCommTester;
 			productName = LinphoneTester;
-			productReference = F0BB8BD51936208100974404 /* liblinphoneTester.app */;
+			productReference = F0BB8BD51936208100974404 /* libVikingCommTester.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F0F951FF1A6AEB1000254160 /* linphoneTests */ = {
+		F0F951FF1A6AEB1000254160 /* VikingCommTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F0F9520C1A6AEB1100254160 /* Build configuration list for PBXNativeTarget "linphoneTests" */;
+			buildConfigurationList = F0F9520C1A6AEB1100254160 /* Build configuration list for PBXNativeTarget "VikingCommTests" */;
 			buildPhases = (
 				7FF8A712621CDB927700B916 /* [CP] Check Pods Manifest.lock */,
 				F0F951FC1A6AEB1000254160 /* Sources */,
@@ -3558,9 +3560,9 @@
 				63058A4E1B4E832500EFAE36 /* PBXTargetDependency */,
 				F0F952071A6AEB1000254160 /* PBXTargetDependency */,
 			);
-			name = linphoneTests;
+			name = VikingCommTests;
 			productName = KifTests;
-			productReference = F0F952001A6AEB1000254160 /* linphoneTests.xctest */;
+			productReference = F0F952001A6AEB1000254160 /* VikingCommTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -3572,7 +3574,6 @@
 				LastUpgradeCheck = 0900;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
-						DevelopmentTeam = Z2V957B3D6;
 						LastSwiftMigration = 1120;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -3595,7 +3596,6 @@
 					};
 					5E3128FF20D7A37E00CF3AAE = {
 						CreatedOnToolsVersion = 9.4;
-						DevelopmentTeam = Z2V957B3D6;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -3605,12 +3605,10 @@
 					};
 					5E58962220DCE5700030868C = {
 						CreatedOnToolsVersion = 9.4;
-						DevelopmentTeam = Z2V957B3D6;
 						ProvisioningStyle = Automatic;
 					};
 					5EEE8F9920C80C23006E4176 = {
 						CreatedOnToolsVersion = 9.4;
-						DevelopmentTeam = Z2V957B3D6;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -3620,7 +3618,6 @@
 					};
 					61AE364A20C00B370089D9D3 = {
 						CreatedOnToolsVersion = 9.2;
-						DevelopmentTeam = Z2V957B3D6;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -3629,21 +3626,16 @@
 						};
 					};
 					F08F118319C09C6A007D70C2 = {
-						DevelopmentTeam = Z2V957B3D6;
 						TestTargetID = F0BB8BD41936208100974404;
-					};
-					F0BB8BD41936208100974404 = {
-						DevelopmentTeam = Z2V957B3D6;
 					};
 					F0F951FF1A6AEB1000254160 = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = Z2V957B3D6;
 						TestTargetID = 1D6058900D05DD3D006BFB54;
 					};
 				};
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "linphone" */;
-			compatibilityVersion = "Xcode 3.2";
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "VikingComm" */;
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -3676,11 +3668,11 @@
 			);
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* linphone */,
-				F0F951FF1A6AEB1000254160 /* linphoneTests */,
-				F0BB8BD41936208100974404 /* liblinphoneTester */,
-				F08F118319C09C6A007D70C2 /* liblinphoneTesterTests */,
-				61AE364A20C00B370089D9D3 /* linphoneExtension */,
+				1D6058900D05DD3D006BFB54 /* VikingComm */,
+				F0F951FF1A6AEB1000254160 /* VikingCommTests */,
+				F0BB8BD41936208100974404 /* libVikingCommTester */,
+				F08F118319C09C6A007D70C2 /* libVikingCommTesterTests */,
+				61AE364A20C00B370089D9D3 /* VikingCommExtension */,
 				5EEE8F9920C80C23006E4176 /* latestCallsWidget */,
 				5E3128FF20D7A37E00CF3AAE /* latestChatroomsWidget */,
 				5E58962220DCE5700030868C /* richNotifications */,
@@ -4240,6 +4232,7 @@
 				633FEE4A1D3CD5590014B822 /* delete_disabled.png in Resources */,
 				614D09CE21E74D5400C43EDF /* GoogleService-Info.plist in Resources */,
 				633FEF151D3CD55A0014B822 /* pause_small_default@2x.png in Resources */,
+				9292A78B239AF7DA00A9A2A7 /* NewScheduleListView.xib in Resources */,
 				633FEEF91D3CD55A0014B822 /* numpad_star_over~ipad@2x.png in Resources */,
 				633FEDCB1D3CD5590014B822 /* call_outgoing@2x.png in Resources */,
 				633FEF501D3CD55A0014B822 /* valid_disabled.png in Resources */,
@@ -4257,7 +4250,7 @@
 				633FEE681D3CD5590014B822 /* footer_contacts_disabled.png in Resources */,
 				633FEDB71D3CD5590014B822 /* call_alt_start_default@2x.png in Resources */,
 				D3D5126C160B3A8E00946DF8 /* AssistantViewScreens.xib in Resources */,
-				63AADBEA1B6A0FF200AA16FD /* Images.xcassets in Resources */,
+				63AADBEA1B6A0FF200AA16FD /* AppIcon.xcassets in Resources */,
 				633FEECB1D3CD55A0014B822 /* numpad_6_default.png in Resources */,
 				633FEDC71D3CD5590014B822 /* call_incoming@2x.png in Resources */,
 				633FEDB81D3CD5590014B822 /* call_alt_start_disabled.png in Resources */,
@@ -4376,7 +4369,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63B21A7D1C623DA80074DFF8 /* test_inprogress.png in Resources */,
-				221234461D9E682100DEFA1F /* Images.xcassets in Resources */,
+				221234461D9E682100DEFA1F /* AppIcon.xcassets in Resources */,
 				63058A2F1B4E821E00EFAE36 /* TesterImages.xcassets in Resources */,
 				63058A251B4E821E00EFAE36 /* InfoPlist.strings in Resources */,
 				63058A271B4E821E00EFAE36 /* Main_iPhone.strings in Resources */,
@@ -4715,6 +4708,7 @@
 				570742611D5A09B8004B9C84 /* ShopView.m in Sources */,
 				63F1DF4F1BCE985F00EDED90 /* UICallConferenceCell.m in Sources */,
 				D37DC6C11594AE1800B2A5EB /* LinphoneCoreSettingsStore.m in Sources */,
+				9292A78A239AF7DA00A9A2A7 /* NewScheduleListView.swift in Sources */,
 				63CD4B4F1A5AAC8C00B84282 /* DTAlertView.m in Sources */,
 				D3EA53FD159850E80037DC6B /* LinphoneManager.m in Sources */,
 				63B81A0E1B57DA33009604A6 /* TPKeyboardAvoidingScrollView.m in Sources */,
@@ -4861,7 +4855,7 @@
 /* Begin PBXTargetDependency section */
 		61AE365520C00B370089D9D3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 61AE364A20C00B370089D9D3 /* linphoneExtension */;
+			target = 61AE364A20C00B370089D9D3 /* VikingCommExtension */;
 			targetProxy = 61AE365420C00B370089D9D3 /* PBXContainerItemProxy */;
 		};
 		63058A4E1B4E832500EFAE36 /* PBXTargetDependency */ = {
@@ -4871,12 +4865,12 @@
 		};
 		F08F119219C09C6B007D70C2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F0BB8BD41936208100974404 /* liblinphoneTester */;
+			target = F0BB8BD41936208100974404 /* libVikingCommTester */;
 			targetProxy = F08F119119C09C6B007D70C2 /* PBXContainerItemProxy */;
 		};
 		F0F952071A6AEB1000254160 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1D6058900D05DD3D006BFB54 /* linphone */;
+			target = 1D6058900D05DD3D006BFB54 /* VikingComm */;
 			targetProxy = F0F952061A6AEB1000254160 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -5435,13 +5429,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMPRESS_PNG_FILES = NO;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = Z2V957B3D6;
+				DEVELOPMENT_TEAM = J48G7834EB;
 				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = linphone_Prefix.pch;
+				GCC_PREFIX_HEADER = VikingComm_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"DEBUG=1",
@@ -5455,7 +5449,7 @@
 					"$(SRCROOT)/Classes/Utils/NinePatch/",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "linphone-Info.plist";
+				INFOPLIST_FILE = "VikingComm-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
@@ -5468,8 +5462,8 @@
 					"$(inherited)",
 					"-DLINPHONE_SDK_VERSION=\\\"4.3.0-alpha.41+4a6a4ef\\\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.linphone.phone;
-				PRODUCT_NAME = linphone;
+				PRODUCT_BUNDLE_IDENTIFIER = org.VikingComm.phone;
+				PRODUCT_NAME = "Viking Softphone";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
@@ -5546,13 +5540,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMPRESS_PNG_FILES = NO;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = Z2V957B3D6;
+				DEVELOPMENT_TEAM = J48G7834EB;
 				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = linphone_Prefix.pch;
+				GCC_PREFIX_HEADER = VikingComm_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
@@ -5563,7 +5557,7 @@
 					"$(SRCROOT)/Classes/Utils/NinePatch/",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "linphone-Info.plist";
+				INFOPLIST_FILE = "VikingComm-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
@@ -5576,8 +5570,8 @@
 					"$(inherited)",
 					"-DLINPHONE_SDK_VERSION=\\\"4.3.0-alpha.41+4a6a4ef\\\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.linphone.phone;
-				PRODUCT_NAME = linphone;
+				PRODUCT_BUNDLE_IDENTIFIER = org.VikingComm.phone;
+				PRODUCT_NAME = "Viking Softphone";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
@@ -5653,13 +5647,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMPRESS_PNG_FILES = NO;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = Z2V957B3D6;
+				DEVELOPMENT_TEAM = J48G7834EB;
 				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = linphone_Prefix.pch;
+				GCC_PREFIX_HEADER = VikingComm_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
@@ -5670,7 +5664,7 @@
 					"$(SRCROOT)/Classes/Utils/NinePatch/",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "linphone-Info.plist";
+				INFOPLIST_FILE = "VikingComm-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
@@ -5683,8 +5677,8 @@
 					"$(inherited)",
 					"-DLINPHONE_SDK_VERSION=\\\"4.3.0-alpha.41+4a6a4ef\\\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.linphone.phone;
-				PRODUCT_NAME = linphone;
+				PRODUCT_BUNDLE_IDENTIFIER = org.VikingComm.phone;
+				PRODUCT_NAME = "Viking Softphone";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
@@ -5760,13 +5754,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMPRESS_PNG_FILES = NO;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = Z2V957B3D6;
+				DEVELOPMENT_TEAM = J48G7834EB;
 				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = linphone_Prefix.pch;
+				GCC_PREFIX_HEADER = VikingComm_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
@@ -5777,7 +5771,7 @@
 					"$(SRCROOT)/Classes/Utils/NinePatch/",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "linphone-Info.plist";
+				INFOPLIST_FILE = "VikingComm-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
@@ -5790,8 +5784,8 @@
 					"$(inherited)",
 					"-DLINPHONE_SDK_VERSION=\\\"4.3.0-alpha.41+4a6a4ef\\\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.linphone.phone;
-				PRODUCT_NAME = linphone;
+				PRODUCT_BUNDLE_IDENTIFIER = org.VikingComm.phone;
+				PRODUCT_NAME = "Viking Softphone";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
@@ -5829,7 +5823,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = Z2V957B3D6;
+				DEVELOPMENT_TEAM = J48G7834EB;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -5838,7 +5832,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = latestChatroomsWidget/Info.plist;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = org.linphone.phone.latestChatroomsWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = org.VikingComm.phone.latestChatroomsWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -5869,7 +5863,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = Z2V957B3D6;
+				DEVELOPMENT_TEAM = J48G7834EB;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -5878,7 +5872,7 @@
 				INFOPLIST_FILE = latestChatroomsWidget/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = org.linphone.phone.latestChatroomsWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = org.VikingComm.phone.latestChatroomsWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -5911,7 +5905,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = Z2V957B3D6;
+				DEVELOPMENT_TEAM = J48G7834EB;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -5920,7 +5914,7 @@
 				INFOPLIST_FILE = latestChatroomsWidget/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = org.linphone.phone.latestChatroomsWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = org.VikingComm.phone.latestChatroomsWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -5953,7 +5947,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = Z2V957B3D6;
+				DEVELOPMENT_TEAM = J48G7834EB;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -5962,7 +5956,7 @@
 				INFOPLIST_FILE = latestChatroomsWidget/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = org.linphone.phone.latestChatroomsWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = org.VikingComm.phone.latestChatroomsWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -5994,7 +5988,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = Z2V957B3D6;
+				DEVELOPMENT_TEAM = J48G7834EB;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -6035,7 +6029,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = Z2V957B3D6;
+				DEVELOPMENT_TEAM = J48G7834EB;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -6076,7 +6070,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = Z2V957B3D6;
+				DEVELOPMENT_TEAM = J48G7834EB;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -6117,7 +6111,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = Z2V957B3D6;
+				DEVELOPMENT_TEAM = J48G7834EB;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -6159,7 +6153,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = Z2V957B3D6;
+				DEVELOPMENT_TEAM = J48G7834EB;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -6169,7 +6163,7 @@
 				INFOPLIST_FILE = latestCallsWidget/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = org.linphone.phone.latestCallsWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = org.VikingComm.phone.latestCallsWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -6201,7 +6195,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = Z2V957B3D6;
+				DEVELOPMENT_TEAM = J48G7834EB;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -6210,7 +6204,7 @@
 				INFOPLIST_FILE = latestCallsWidget/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = org.linphone.phone.latestCallsWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = org.VikingComm.phone.latestCallsWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -6243,7 +6237,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = Z2V957B3D6;
+				DEVELOPMENT_TEAM = J48G7834EB;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -6252,7 +6246,7 @@
 				INFOPLIST_FILE = latestCallsWidget/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = org.linphone.phone.latestCallsWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = org.VikingComm.phone.latestCallsWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -6285,7 +6279,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = Z2V957B3D6;
+				DEVELOPMENT_TEAM = J48G7834EB;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -6294,7 +6288,7 @@
 				INFOPLIST_FILE = latestCallsWidget/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = org.linphone.phone.latestCallsWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = org.VikingComm.phone.latestCallsWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -6325,7 +6319,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = Z2V957B3D6;
+				DEVELOPMENT_TEAM = J48G7834EB;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -6335,7 +6329,7 @@
 				INFOPLIST_FILE = linphoneExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = org.linphone.phone.linphoneExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = org.VikingComm.phone.VikingCommExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
@@ -6365,7 +6359,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = Z2V957B3D6;
+				DEVELOPMENT_TEAM = J48G7834EB;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -6374,7 +6368,7 @@
 				INFOPLIST_FILE = linphoneExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = org.linphone.phone.linphoneExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = org.VikingComm.phone.VikingCommExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				STRIP_SWIFT_SYMBOLS = NO;
@@ -6404,7 +6398,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = Z2V957B3D6;
+				DEVELOPMENT_TEAM = J48G7834EB;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -6413,7 +6407,7 @@
 				INFOPLIST_FILE = linphoneExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = org.linphone.phone.linphoneExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = org.VikingComm.phone.VikingCommExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
@@ -6444,7 +6438,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = Z2V957B3D6;
+				DEVELOPMENT_TEAM = J48G7834EB;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -6453,7 +6447,7 @@
 				INFOPLIST_FILE = linphoneExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = org.linphone.phone.linphoneExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = org.VikingComm.phone.VikingCommExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
@@ -6526,6 +6520,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = J48G7834EB;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -6552,7 +6547,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/liblinphoneTester.app/liblinphoneTester";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/libVikingCommTester.app/libVikingCommTester";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -6574,6 +6569,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = J48G7834EB;
 				ENABLE_BITCODE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -6597,7 +6593,7 @@
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/liblinphoneTester.app/liblinphoneTester";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/libVikingCommTester.app/libVikingCommTester";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -6620,6 +6616,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = J48G7834EB;
 				ENABLE_BITCODE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -6643,7 +6640,7 @@
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/liblinphoneTester.app/liblinphoneTester";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/libVikingCommTester.app/libVikingCommTester";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -6666,6 +6663,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = J48G7834EB;
 				ENABLE_BITCODE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -6689,7 +6687,7 @@
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/liblinphoneTester.app/liblinphoneTester";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/libVikingCommTester.app/libVikingCommTester";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -6713,6 +6711,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = J48G7834EB;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -6767,6 +6766,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = J48G7834EB;
 				ENABLE_BITCODE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -6819,6 +6819,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = J48G7834EB;
 				ENABLE_BITCODE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -6871,6 +6872,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = J48G7834EB;
 				ENABLE_BITCODE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -6921,6 +6923,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = J48G7834EB;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -6952,7 +6955,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/linphone.app/linphone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VikingComm.app/VikingComm";
 			};
 			name = Debug;
 		};
@@ -6972,6 +6975,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = J48G7834EB;
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -7000,7 +7004,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/linphone.app/linphone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VikingComm.app/VikingComm";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -7021,6 +7025,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = J48G7834EB;
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -7049,7 +7054,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/linphone.app/linphone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VikingComm.app/VikingComm";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Distribution;
@@ -7070,6 +7075,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = J48G7834EB;
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -7098,7 +7104,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/linphone.app/linphone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VikingComm.app/VikingComm";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = DistributionAdhoc;
@@ -7106,7 +7112,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "linphone" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "VikingComm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
@@ -7150,7 +7156,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		61AE366120C00B370089D9D3 /* Build configuration list for PBXNativeTarget "linphoneExtension" */ = {
+		61AE366120C00B370089D9D3 /* Build configuration list for PBXNativeTarget "VikingCommExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				61AE365720C00B370089D9D3 /* Debug */,
@@ -7161,7 +7167,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "linphone" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "VikingComm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
@@ -7172,7 +7178,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		F08F119319C09C6B007D70C2 /* Build configuration list for PBXNativeTarget "liblinphoneTesterTests" */ = {
+		F08F119319C09C6B007D70C2 /* Build configuration list for PBXNativeTarget "libVikingCommTesterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F08F119419C09C6B007D70C2 /* Debug */,
@@ -7183,7 +7189,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		F0BB8C051936208200974404 /* Build configuration list for PBXNativeTarget "liblinphoneTester" */ = {
+		F0BB8C051936208200974404 /* Build configuration list for PBXNativeTarget "libVikingCommTester" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F0BB8C061936208200974404 /* Debug */,
@@ -7194,7 +7200,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		F0F9520C1A6AEB1100254160 /* Build configuration list for PBXNativeTarget "linphoneTests" */ = {
+		F0F9520C1A6AEB1100254160 /* Build configuration list for PBXNativeTarget "VikingCommTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F0F952081A6AEB1000254160 /* Debug */,
